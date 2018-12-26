@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.5">
+	<ConfigVersions>
+		<Metadata name="CommonModule.ЛогированиеВызовСервера" id="f1af1d30-7b8b-476a-9208-425d2098a7c8" configVersion="af3be939fc7bd64692abffe411b3e4c800000000"/>
+		<Metadata name="CommonModule.ЛогированиеВызовСервера.Module" id="f1af1d30-7b8b-476a-9208-425d2098a7c8.0" configVersion="108c35b218b0384ba3375b142178c0ed00000000"/>
+		<Metadata name="CommonModule.ЛогированиеГлобальный" id="41252dfa-de98-4e65-a3ae-9807bb37c1a5" configVersion="6a327a9a68f09840b1214500117b1cba00000000"/>
+		<Metadata name="CommonModule.ЛогированиеГлобальный.Module" id="41252dfa-de98-4e65-a3ae-9807bb37c1a5.0" configVersion="420fb038fc76e24db9c9f9c8c87d21cc00000000"/>
+		<Metadata name="CommonModule.ЛогированиеКлиентСервер" id="7fdf3066-7803-4690-88e1-a5f7a3691409" configVersion="9a4f948ec95a0f4ca0d34f7f3d5ddfc800000000"/>
+		<Metadata name="CommonModule.ЛогированиеКлиентСервер.Module" id="7fdf3066-7803-4690-88e1-a5f7a3691409.0" configVersion="446ba772d2c0b747be47b3b4a157300200000000"/>
+		<Metadata name="CommonModule.ЛогированиеПереопределяемый" id="09d09c86-6bb5-484a-bb4e-a54ce75ec434" configVersion="2400f813fc01684985ab4ff3a640b80700000000"/>
+		<Metadata name="CommonModule.ЛогированиеПереопределяемый.Module" id="09d09c86-6bb5-484a-bb4e-a54ce75ec434.0" configVersion="b88dee207165e94c9e47e3cd54eb465200000000"/>
+		<Metadata name="CommonModule.ЛогированиеПовторногоИспользования" id="15a0ec2e-defe-48bc-96c0-e0998aa3f8ea" configVersion="24544fb3a2ece14c941c743a484f015000000000"/>
+		<Metadata name="CommonModule.ЛогированиеПовторногоИспользования.Module" id="15a0ec2e-defe-48bc-96c0-e0998aa3f8ea.0" configVersion="91dfadfa760e514494c4444fb7742d9a00000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначения" id="52433983-8f38-4f06-9d81-16a4265d9b45" configVersion="9193908915f72d448c4b1cebe30f670b00000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="52433983-8f38-4f06-9d81-16a4265d9b45.0" configVersion="6114c0fecf592a4da64e1bb681c3825700000000"/>
+		<Metadata name="Configuration.LoggingSubsystem" id="11132c52-deb2-412f-a1e6-68be31452ffa" configVersion="60a4e1e0c3ecff40a5b7a12134de44ce00000000"/>
+		<Metadata name="Language.Русский" id="3aa62cb9-04be-444b-9992-591e3f3ad719" configVersion="e767776106de4247995ea730b98b9ce000000000"/>
+		<Metadata name="Subsystem.Служебные" id="dfc3cd1e-2778-4141-9f74-601a8398fda6" configVersion="4516f04475656b46b0748ef0fcaa7c7e00000000"/>
+		<Metadata name="Subsystem.Служебные.Subsystem.Логирование" id="7d51bbc4-e525-4090-853f-e54b1c4db15f" configVersion="27dccf1c52985448b52972251c154fd900000000"/>
+		<Metadata name="Subsystem.Служебные.Subsystem.Логирование.Subsystem.ELK" id="8638209c-f945-4bf6-a8ac-da2b6b32eed2" configVersion="a30485b7bf974c4686ab84ee1391946700000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

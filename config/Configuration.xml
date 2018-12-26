@@ -142,6 +142,7 @@
 			<CommonModule>ЛогированиеПовторногоИспользования</CommonModule>
 			<CommonModule>ЛогированиеВызовСервера</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
+			<DataProcessor>ТестСозданиеЛогов</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

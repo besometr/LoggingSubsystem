@@ -12,6 +12,10 @@ CommonModules\ЛогированиеКлиентСервер\Ext\Module.bsl-->Co
 CommonModules\ЛогированиеПереопределяемый\Ext\Module.bsl-->CommonModules\ЛогированиеПереопределяемый\Ext\Module.bsl
 CommonModules\ЛогированиеПовторногоИспользования\Ext\Module.bsl-->CommonModules\ЛогированиеПовторногоИспользования\Ext\Module.bsl
 CommonModules\ОбщегоНазначения\Ext\Module.bsl-->CommonModules\ОбщегоНазначения\Ext\Module.bsl
+DataProcessors\ТестСозданиеЛогов.xml-->DataProcessors\ТестСозданиеЛогов.xml
+DataProcessors\ТестСозданиеЛогов\Forms\Форма.xml-->DataProcessors\ТестСозданиеЛогов\Forms\Форма.xml
+DataProcessors\ТестСозданиеЛогов\Forms\Форма\Ext\Form.xml-->DataProcessors\ТестСозданиеЛогов\Forms\Форма\Ext\Form.xml
+DataProcessors\ТестСозданиеЛогов\Forms\Форма\Ext\Form\Module.bsl-->DataProcessors\ТестСозданиеЛогов\Forms\Форма\Ext\Form\Module.bsl
 Languages\Русский.xml-->Languages\Русский.xml
 Subsystems\Служебные.xml-->Subsystems\Служебные.xml
 Subsystems\Служебные\Subsystems\Логирование.xml-->Subsystems\Служебные\Subsystems\Логирование.xml

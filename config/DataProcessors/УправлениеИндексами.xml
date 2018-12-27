@@ -1,24 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
-	<Subsystem uuid="7d51bbc4-e525-4090-853f-e54b1c4db15f">
+	<DataProcessor uuid="5c31fd41-5953-4020-892d-7d04d660bdad">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.УправлениеИндексами" category="Object">
+				<xr:TypeId>25387131-bedc-4956-aea3-55df9e1f49c5</xr:TypeId>
+				<xr:ValueId>28aae432-d910-453d-8787-f5a597183773</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.УправлениеИндексами" category="Manager">
+				<xr:TypeId>c3ca104b-7167-4433-93f2-baa8f51be99f</xr:TypeId>
+				<xr:ValueId>13c3d4fd-ea38-4bf1-af9b-9380fc62f651</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
 		<Properties>
-			<Name>Логирование</Name>
+			<Name>УправлениеИндексами</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Логирование</v8:content>
+					<v8:content>Управление индексами</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<IncludeHelpInContents>true</IncludeHelpInContents>
-			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm>DataProcessor.УправлениеИндексами.Form.Форма</DefaultForm>
+			<AuxiliaryForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
 			<Explanation/>
-			<Picture/>
-			<Content/>
 		</Properties>
 		<ChildObjects>
-			<Subsystem>ELK</Subsystem>
-			<Subsystem>НастройкиПодключения</Subsystem>
+			<Form>Форма</Form>
 		</ChildObjects>
-	</Subsystem>
+	</DataProcessor>
 </MetaDataObject>

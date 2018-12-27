@@ -136,13 +136,16 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>Служебные</Subsystem>
+			<SessionParameter>ПараметрСеанса1</SessionParameter>
+			<CommonModule>ЛогированиеВызовСервера</CommonModule>
 			<CommonModule>ЛогированиеГлобальный</CommonModule>
 			<CommonModule>ЛогированиеКлиентСервер</CommonModule>
 			<CommonModule>ЛогированиеПереопределяемый</CommonModule>
 			<CommonModule>ЛогированиеПовторногоИспользования</CommonModule>
-			<CommonModule>ЛогированиеВызовСервера</CommonModule>
+			<CommonModule>ЛогированиеСервер</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
 			<DataProcessor>ТестСозданиеЛогов</DataProcessor>
+			<DataProcessor>УправлениеИндексами</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
-	<Subsystem uuid="8638209c-f945-4bf6-a8ac-da2b6b32eed2">
+	<Subsystem uuid="5e9b744b-498b-4e70-bbe1-e4f368014df0">
 		<Properties>
-			<Name>ELK</Name>
+			<Name>НастройкиПодключения</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>ELK</v8:content>
+					<v8:content>Настройки подключения</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -15,13 +15,7 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеГлобальный</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеКлиентСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеПереопределяемый</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеПовторногоИспользования</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеВызовСервера</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТестСозданиеЛогов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.УправлениеИндексами</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

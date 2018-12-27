@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.5">
 	<ConfigVersions>
-		<Metadata name="CommonModule.ЛогированиеВызовСервера" id="f1af1d30-7b8b-476a-9208-425d2098a7c8" configVersion="7e0e5e961cdc8d49b68c093d293c85c000000000"/>
-		<Metadata name="CommonModule.ЛогированиеВызовСервера.Module" id="f1af1d30-7b8b-476a-9208-425d2098a7c8.0" configVersion="0c7d3cbd4254da4a9cfb69f8af3055df00000000"/>
+		<Metadata name="CommonModule.ЛогированиеВызовСервера" id="f1af1d30-7b8b-476a-9208-425d2098a7c8" configVersion="bac44fd18376ac4f9c52b9f7e4ac2c7500000000"/>
+		<Metadata name="CommonModule.ЛогированиеВызовСервера.Module" id="f1af1d30-7b8b-476a-9208-425d2098a7c8.0" configVersion="22601cc2aa724b48a17cdbc84f382aee00000000"/>
 		<Metadata name="CommonModule.ЛогированиеГлобальный" id="41252dfa-de98-4e65-a3ae-9807bb37c1a5" configVersion="f5c294c3996cd34d82de3cd6fcdab40300000000"/>
 		<Metadata name="CommonModule.ЛогированиеГлобальный.Module" id="41252dfa-de98-4e65-a3ae-9807bb37c1a5.0" configVersion="6c360396a303274baa385acbf1d709a400000000"/>
 		<Metadata name="CommonModule.ЛогированиеКлиентСервер" id="7fdf3066-7803-4690-88e1-a5f7a3691409" configVersion="628c48fd7932dd4c82f56066d86a156c00000000"/>
@@ -11,15 +11,22 @@
 		<Metadata name="CommonModule.ЛогированиеПереопределяемый.Module" id="09d09c86-6bb5-484a-bb4e-a54ce75ec434.0" configVersion="b88dee207165e94c9e47e3cd54eb465200000000"/>
 		<Metadata name="CommonModule.ЛогированиеПовторногоИспользования" id="15a0ec2e-defe-48bc-96c0-e0998aa3f8ea" configVersion="24544fb3a2ece14c941c743a484f015000000000"/>
 		<Metadata name="CommonModule.ЛогированиеПовторногоИспользования.Module" id="15a0ec2e-defe-48bc-96c0-e0998aa3f8ea.0" configVersion="91dfadfa760e514494c4444fb7742d9a00000000"/>
+		<Metadata name="CommonModule.ЛогированиеСервер" id="551b603d-f4ff-4f17-8f6c-a81a1e5ce8ab" configVersion="829ed9843949144e8bbd42ab7d8746f200000000"/>
+		<Metadata name="CommonModule.ЛогированиеСервер.Module" id="551b603d-f4ff-4f17-8f6c-a81a1e5ce8ab.0" configVersion="16c08f4d8a1f994abc1ff42d6c33037400000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначения" id="52433983-8f38-4f06-9d81-16a4265d9b45" configVersion="9193908915f72d448c4b1cebe30f670b00000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="52433983-8f38-4f06-9d81-16a4265d9b45.0" configVersion="6114c0fecf592a4da64e1bb681c3825700000000"/>
-		<Metadata name="Configuration.LoggingSubsystem" id="11132c52-deb2-412f-a1e6-68be31452ffa" configVersion="74e721d2b3b2be4580ae3fc9f3a381eb00000000"/>
+		<Metadata name="Configuration.LoggingSubsystem" id="11132c52-deb2-412f-a1e6-68be31452ffa" configVersion="19a1ba33f4a3f541b37400ec6618bb7b00000000"/>
 		<Metadata name="DataProcessor.ТестСозданиеЛогов" id="3bb8cc96-2f54-4f41-86a0-e9a32595b218" configVersion="dfdcee5d1847eb43889dfef99aa6c2d400000000"/>
-		<Metadata name="DataProcessor.ТестСозданиеЛогов.Form.Форма" id="c6edd5cb-e8d2-4953-8897-fef0ca1c5d9e" configVersion="ed576fdc7b6e1f429f7a6c38e5f6e55600000000"/>
-		<Metadata name="DataProcessor.ТестСозданиеЛогов.Form.Форма.Form" id="c6edd5cb-e8d2-4953-8897-fef0ca1c5d9e.0" configVersion="146656295c24b241835cef011b76368b00000000"/>
+		<Metadata name="DataProcessor.ТестСозданиеЛогов.Form.Форма" id="c6edd5cb-e8d2-4953-8897-fef0ca1c5d9e" configVersion="8ad811b9ddca31498f4743e968da8b8100000000"/>
+		<Metadata name="DataProcessor.ТестСозданиеЛогов.Form.Форма.Form" id="c6edd5cb-e8d2-4953-8897-fef0ca1c5d9e.0" configVersion="9e03514f47ca0a45835d5990c18316b900000000"/>
+		<Metadata name="DataProcessor.УправлениеИндексами" id="5c31fd41-5953-4020-892d-7d04d660bdad" configVersion="e64e488c7f123b4480a0fe29115a8ec300000000"/>
+		<Metadata name="DataProcessor.УправлениеИндексами.Form.Форма" id="6a867d7d-bbc9-4c62-85ec-c64832584652" configVersion="98b312c06a7d344193a3daaefc78cbe400000000"/>
+		<Metadata name="DataProcessor.УправлениеИндексами.Form.Форма.Form" id="6a867d7d-bbc9-4c62-85ec-c64832584652.0" configVersion="5bcc9a28a0d2c84c823ce522db96188700000000"/>
 		<Metadata name="Language.Русский" id="3aa62cb9-04be-444b-9992-591e3f3ad719" configVersion="e767776106de4247995ea730b98b9ce000000000"/>
+		<Metadata name="SessionParameter.ПараметрСеанса1" id="d3712aaa-5769-4c63-bb19-f414dae9bc5f" configVersion="837ba6415f2fb84093b8e4d3501f7ba000000000"/>
 		<Metadata name="Subsystem.Служебные" id="dfc3cd1e-2778-4141-9f74-601a8398fda6" configVersion="4516f04475656b46b0748ef0fcaa7c7e00000000"/>
-		<Metadata name="Subsystem.Служебные.Subsystem.Логирование" id="7d51bbc4-e525-4090-853f-e54b1c4db15f" configVersion="27dccf1c52985448b52972251c154fd900000000"/>
-		<Metadata name="Subsystem.Служебные.Subsystem.Логирование.Subsystem.ELK" id="8638209c-f945-4bf6-a8ac-da2b6b32eed2" configVersion="71dba9edac461047b121827547c9416a00000000"/>
+		<Metadata name="Subsystem.Служебные.Subsystem.Логирование" id="7d51bbc4-e525-4090-853f-e54b1c4db15f" configVersion="64d4fe1cafc5de48a5924400195bebe000000000"/>
+		<Metadata name="Subsystem.Служебные.Subsystem.Логирование.Subsystem.ELK" id="8638209c-f945-4bf6-a8ac-da2b6b32eed2" configVersion="2bbccaa0556d304e9be5ceca894511e600000000"/>
+		<Metadata name="Subsystem.Служебные.Subsystem.Логирование.Subsystem.НастройкиПодключения" id="5e9b744b-498b-4e70-bbe1-e4f368014df0" configVersion="22fced01ca2fb44387e983ef792ee9de00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

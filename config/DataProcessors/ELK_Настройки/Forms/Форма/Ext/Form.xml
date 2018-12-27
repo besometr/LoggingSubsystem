@@ -1,6 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ПолучитьСписокИндексов" id="1">
+				<Type>CommandBarButton</Type>
+				<Representation>Picture</Representation>
+				<CommandName>Form.Command.ПолучитьСписокИндексов</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.Refresh</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ПолучитьСписокИндексовРасширеннаяПодсказка" id="2"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
 	</Events>
@@ -9,7 +22,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа настройки</v8:content>
+					<v8:content>Текущие настройки</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -18,25 +31,41 @@
 					<v8:content>Группа настройки</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Representation>None</Representation>
 			<ExtendedTooltip name="ГруппаНастройкиРасширеннаяПодсказка" id="6"/>
 			<ChildItems>
-				<Button name="ПолучитьСписокИндексов" id="1">
-					<Type>UsualButton</Type>
-					<Representation>Picture</Representation>
-					<CommandName>Form.Command.ПолучитьСписокИндексов</CommandName>
-					<Picture>
-						<xr:Ref>StdPicture.Refresh</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
-					</Picture>
-					<ExtendedTooltip name="ПолучитьСписокИндексовРасширеннаяПодсказка" id="2"/>
-				</Button>
+				<InputField name="Индекс" id="40">
+					<DataPath>Индекс</DataPath>
+					<ContextMenu name="ИндексКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="ИндексРасширеннаяПодсказка" id="42"/>
+				</InputField>
+				<InputField name="Тип" id="43">
+					<DataPath>Тип</DataPath>
+					<ContextMenu name="ТипКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="45"/>
+				</InputField>
+				<InputField name="Сервер" id="46">
+					<DataPath>Сервер</DataPath>
+					<ContextMenu name="СерверКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="СерверРасширеннаяПодсказка" id="48"/>
+				</InputField>
+				<InputField name="Порт" id="49">
+					<DataPath>Порт</DataPath>
+					<ContextMenu name="ПортКонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="ПортРасширеннаяПодсказка" id="51"/>
+				</InputField>
+				<InputField name="Таймаут" id="52">
+					<DataPath>Таймаут</DataPath>
+					<ContextMenu name="ТаймаутКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="ТаймаутРасширеннаяПодсказка" id="54"/>
+				</InputField>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаКластер" id="7">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа кластер</v8:content>
+					<v8:content>Текущий кластер</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -46,6 +75,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Horizontal</Group>
+			<Representation>None</Representation>
 			<ExtendedTooltip name="ГруппаКластерРасширеннаяПодсказка" id="8"/>
 			<ChildItems>
 				<InputField name="ИмяКластера" id="9">
@@ -66,7 +96,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа индексы</v8:content>
+					<v8:content>Индексы</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -75,6 +105,7 @@
 					<v8:content>Группа индексы</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Representation>None</Representation>
 			<ExtendedTooltip name="ГруппаИндексыРасширеннаяПодсказка" id="4"/>
 			<ChildItems>
 				<Table name="тзИндексы" id="15">
@@ -146,7 +177,7 @@
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:DataProcessorObject.УправлениеИндексами</v8:Type>
+				<v8:Type>cfg:DataProcessorObject.ELK_Настройки</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>
@@ -253,6 +284,83 @@
 				</Column>
 			</Columns>
 		</Attribute>
+		<Attribute name="Индекс" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Индекс</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Тип" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Сервер" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сервер</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Порт" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Порт</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>5</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Таймаут" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таймаут</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>3</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ПолучитьСписокИндексов" id="1">
@@ -269,6 +377,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ПолучитьСписокИндексов</Action>
+		</Command>
+		<Command name="СохранитьНастройкиПодключения" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить настройки подключения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить настройки подключения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СохранитьНастройкиПодключения</Action>
 		</Command>
 	</Commands>
 </Form>

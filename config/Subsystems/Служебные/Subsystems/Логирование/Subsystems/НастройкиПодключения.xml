@@ -15,7 +15,13 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.УправлениеИндексами</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ELK_Настройки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ПараметровПодключенияКELK</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ELK_Индекс</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ELK_Тип</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ELK_Сервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ELK_Порт</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ELK_Таймаут</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

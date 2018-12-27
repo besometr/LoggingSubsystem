@@ -136,7 +136,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>Служебные</Subsystem>
-			<SessionParameter>ПараметрСеанса1</SessionParameter>
+			<SessionParameter>ПараметровПодключенияКELK</SessionParameter>
 			<CommonModule>ЛогированиеВызовСервера</CommonModule>
 			<CommonModule>ЛогированиеГлобальный</CommonModule>
 			<CommonModule>ЛогированиеКлиентСервер</CommonModule>
@@ -144,8 +144,13 @@
 			<CommonModule>ЛогированиеПовторногоИспользования</CommonModule>
 			<CommonModule>ЛогированиеСервер</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
+			<Constant>ELK_Индекс</Constant>
+			<Constant>ELK_Тип</Constant>
+			<Constant>ELK_Сервер</Constant>
+			<Constant>ELK_Порт</Constant>
+			<Constant>ELK_Таймаут</Constant>
 			<DataProcessor>ТестСозданиеЛогов</DataProcessor>
-			<DataProcessor>УправлениеИндексами</DataProcessor>
+			<DataProcessor>ELK_Настройки</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

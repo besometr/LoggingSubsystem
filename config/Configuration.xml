@@ -151,6 +151,7 @@
 			<Constant>ELK_Таймаут</Constant>
 			<DataProcessor>ТестСозданиеЛогов</DataProcessor>
 			<DataProcessor>ELK_Настройки</DataProcessor>
+			<DataProcessor>ELK_ПолучениеЛогов</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

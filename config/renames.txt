@@ -20,10 +20,14 @@ Constants\ELK_Сервер.xml-->Constants\ELK_Сервер.xml
 Constants\ELK_Таймаут.xml-->Constants\ELK_Таймаут.xml
 Constants\ELK_Тип.xml-->Constants\ELK_Тип.xml
 DataProcessors\ELK_Настройки.xml-->DataProcessors\ELK_Настройки.xml
+DataProcessors\ELK_ПолучениеЛогов.xml-->DataProcessors\ELK_ПолучениеЛогов.xml
 DataProcessors\ТестСозданиеЛогов.xml-->DataProcessors\ТестСозданиеЛогов.xml
 DataProcessors\ELK_Настройки\Forms\Форма.xml-->DataProcessors\ELK_Настройки\Forms\Форма.xml
 DataProcessors\ELK_Настройки\Forms\Форма\Ext\Form.xml-->DataProcessors\ELK_Настройки\Forms\Форма\Ext\Form.xml
 DataProcessors\ELK_Настройки\Forms\Форма\Ext\Form\Module.bsl-->DataProcessors\ELK_Настройки\Forms\Форма\Ext\Form\Module.bsl
+DataProcessors\ELK_ПолучениеЛогов\Forms\Форма.xml-->DataProcessors\ELK_ПолучениеЛогов\Forms\Форма.xml
+DataProcessors\ELK_ПолучениеЛогов\Forms\Форма\Ext\Form.xml-->DataProcessors\ELK_ПолучениеЛогов\Forms\Форма\Ext\Form.xml
+DataProcessors\ELK_ПолучениеЛогов\Forms\Форма\Ext\Form\Module.bsl-->DataProcessors\ELK_ПолучениеЛогов\Forms\Форма\Ext\Form\Module.bsl
 DataProcessors\ТестСозданиеЛогов\Forms\Форма.xml-->DataProcessors\ТестСозданиеЛогов\Forms\Форма.xml
 DataProcessors\ТестСозданиеЛогов\Forms\Форма\Ext\Form.xml-->DataProcessors\ТестСозданиеЛогов\Forms\Форма\Ext\Form.xml
 DataProcessors\ТестСозданиеЛогов\Forms\Форма\Ext\Form\Module.bsl-->DataProcessors\ТестСозданиеЛогов\Forms\Форма\Ext\Form\Module.bsl

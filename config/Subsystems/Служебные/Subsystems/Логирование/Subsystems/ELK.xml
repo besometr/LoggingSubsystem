@@ -22,6 +22,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеВызовСервера</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТестСозданиеЛогов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ELK_ПолучениеЛогов</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

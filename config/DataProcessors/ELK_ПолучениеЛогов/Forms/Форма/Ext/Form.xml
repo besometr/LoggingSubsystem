@@ -63,6 +63,7 @@
 									<v8:content>Группа основной отбор</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Behavior>Collapsible</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаОсновнойОтборРасширеннаяПодсказка" id="75"/>
 							<ChildItems>
@@ -114,6 +115,7 @@
 									<v8:content>Группа пользовательский отбор</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Behavior>Collapsible</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаПользовательскийОтборРасширеннаяПодсказка" id="89"/>
 							<ChildItems>

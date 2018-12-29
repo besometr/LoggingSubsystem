@@ -1,0 +1,2 @@
+//Экспорт исходников конфигурации в сторонний репозитарий Git
+gitsync export "\\v-dcr-repo1c\Repozitory.8.3.11.3034\LoggingSubsystem" "E:\git\LoggingSubsystem\config" -tempdir "E:\git\temp_gitsync"

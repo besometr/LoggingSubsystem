@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
 	<ChildItems>
 		<Pages name="ГруппаТестирование" id="5">
 			<Title>
@@ -39,8 +42,83 @@
 						</Button>
 						<Button name="ОтправитьЛог" id="3">
 							<Type>UsualButton</Type>
-							<CommandName>Form.Command.ОтправитьЛог</CommandName>
+							<CommandName>Form.Command.ОтправитьТиповойЛог</CommandName>
 							<ExtendedTooltip name="ОтправитьЛогРасширеннаяПодсказка" id="4"/>
+						</Button>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаКастомЛог" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Кастомный лог</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа кастом лог</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаКастомЛогРасширеннаяПодсказка" id="10"/>
+					<ChildItems>
+						<InputField name="КороткоеСообщение" id="11">
+							<DataPath>КороткоеСообщение</DataPath>
+							<ContextMenu name="КороткоеСообщениеКонтекстноеМеню" id="12"/>
+							<ExtendedTooltip name="КороткоеСообщениеРасширеннаяПодсказка" id="13"/>
+						</InputField>
+						<InputField name="ПолноеСообщение" id="14">
+							<DataPath>ПолноеСообщение</DataPath>
+							<ContextMenu name="ПолноеСообщениеКонтекстноеМеню" id="15"/>
+							<ExtendedTooltip name="ПолноеСообщениеРасширеннаяПодсказка" id="16"/>
+						</InputField>
+						<InputField name="Уровень" id="40">
+							<DataPath>Уровень</DataPath>
+							<ListChoiceMode>true</ListChoiceMode>
+							<ChooseType>false</ChooseType>
+							<TextEdit>false</TextEdit>
+							<ContextMenu name="УровеньКонтекстноеМеню" id="41"/>
+							<ExtendedTooltip name="УровеньРасширеннаяПодсказка" id="42"/>
+						</InputField>
+						<InputField name="ДатаСобытия" id="17">
+							<DataPath>ДатаСобытия</DataPath>
+							<ContextMenu name="ДатаСобытияКонтекстноеМеню" id="18"/>
+							<ExtendedTooltip name="ДатаСобытияРасширеннаяПодсказка" id="19"/>
+						</InputField>
+						<InputField name="Подсистема" id="20">
+							<DataPath>Подсистема</DataPath>
+							<ContextMenu name="ПодсистемаКонтекстноеМеню" id="21"/>
+							<ExtendedTooltip name="ПодсистемаРасширеннаяПодсказка" id="22"/>
+						</InputField>
+						<InputField name="МетаданныеОбъекта" id="23">
+							<DataPath>МетаданныеОбъекта</DataPath>
+							<ContextMenu name="МетаданныеОбъектаКонтекстноеМеню" id="24"/>
+							<ExtendedTooltip name="МетаданныеОбъектаРасширеннаяПодсказка" id="25"/>
+						</InputField>
+						<InputField name="Метод" id="26">
+							<DataPath>Метод</DataPath>
+							<ContextMenu name="МетодКонтекстноеМеню" id="27"/>
+							<ExtendedTooltip name="МетодРасширеннаяПодсказка" id="28"/>
+						</InputField>
+						<InputField name="Операция" id="29">
+							<DataPath>Операция</DataPath>
+							<ContextMenu name="ОперацияКонтекстноеМеню" id="30"/>
+							<ExtendedTooltip name="ОперацияРасширеннаяПодсказка" id="31"/>
+						</InputField>
+						<InputField name="ПредставлениеОбъекта" id="32">
+							<DataPath>ПредставлениеОбъекта</DataPath>
+							<ContextMenu name="ПредставлениеОбъектаКонтекстноеМеню" id="33"/>
+							<ExtendedTooltip name="ПредставлениеОбъектаРасширеннаяПодсказка" id="34"/>
+						</InputField>
+						<InputField name="ГУИДОбъекта" id="35">
+							<DataPath>ГУИДОбъекта</DataPath>
+							<ContextMenu name="ГУИДОбъектаКонтекстноеМеню" id="36"/>
+							<ExtendedTooltip name="ГУИДОбъектаРасширеннаяПодсказка" id="37"/>
+						</InputField>
+						<Button name="ОтправитьКастомныйЛог" id="38">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ОтправитьКастомныйЛог</CommandName>
+							<ExtendedTooltip name="ОтправитьКастомныйЛогРасширеннаяПодсказка" id="39"/>
 						</Button>
 					</ChildItems>
 				</Page>
@@ -53,6 +131,156 @@
 				<v8:Type>cfg:DataProcessorObject.ТестСозданиеЛогов</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="КороткоеСообщение" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Короткое сообщение</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПолноеСообщение" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Короткое сообщение</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДатаСобытия" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата события</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Подсистема" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подсистема</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="МетаданныеОбъекта" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Метаданные объекта</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Метод" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Метод</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Операция" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Операция</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПредставлениеОбъекта" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Представление объекта</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ГУИДОбъекта" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ГУИДОбъекта</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Уровень" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уровень</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>
@@ -71,20 +299,35 @@
 			</ToolTip>
 			<Action>ПолучитьСтруктуруЛога</Action>
 		</Command>
-		<Command name="ОтправитьЛог" id="2">
+		<Command name="ОтправитьТиповойЛог" id="2">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Отправить лог</v8:content>
+					<v8:content>Отправить типовой лог</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Отправить лог</v8:content>
+					<v8:content>Отправить типовой лог</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>ОтправитьЛог</Action>
+			<Action>ОтправитьТиповойЛог</Action>
+		</Command>
+		<Command name="ОтправитьКастомныйЛог" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить кастомный лог</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить кастомный лог</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтправитьКастомныйЛог</Action>
 		</Command>
 	</Commands>
 </Form>

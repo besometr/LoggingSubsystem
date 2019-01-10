@@ -64,11 +64,13 @@
 					<ChildItems>
 						<InputField name="КороткоеСообщение" id="11">
 							<DataPath>КороткоеСообщение</DataPath>
+							<MultiLine>true</MultiLine>
 							<ContextMenu name="КороткоеСообщениеКонтекстноеМеню" id="12"/>
 							<ExtendedTooltip name="КороткоеСообщениеРасширеннаяПодсказка" id="13"/>
 						</InputField>
 						<InputField name="ПолноеСообщение" id="14">
 							<DataPath>ПолноеСообщение</DataPath>
+							<MultiLine>true</MultiLine>
 							<ContextMenu name="ПолноеСообщениеКонтекстноеМеню" id="15"/>
 							<ExtendedTooltip name="ПолноеСообщениеРасширеннаяПодсказка" id="16"/>
 						</InputField>

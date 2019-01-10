@@ -177,12 +177,14 @@
 				<InputField name="тзРезультатshort_message" id="66">
 					<DataPath>Отчет.тзРезультат.short_message</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<MultiLine>true</MultiLine>
 					<ContextMenu name="тзРезультатshort_messageКонтекстноеМеню" id="67"/>
 					<ExtendedTooltip name="тзРезультатshort_messageРасширеннаяПодсказка" id="68"/>
 				</InputField>
 				<InputField name="тзРезультатfull_message" id="69">
 					<DataPath>Отчет.тзРезультат.full_message</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<MultiLine>true</MultiLine>
 					<ContextMenu name="тзРезультатfull_messageКонтекстноеМеню" id="70"/>
 					<ExtendedTooltip name="тзРезультатfull_messageРасширеннаяПодсказка" id="71"/>
 				</InputField>

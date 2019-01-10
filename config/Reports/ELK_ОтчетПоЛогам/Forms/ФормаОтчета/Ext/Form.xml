@@ -33,11 +33,25 @@
 			<ExtendedTooltip name="КомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="4"/>
 		</UsualGroup>
 		<Table name="тзРезультат" id="5">
+			<ChangeRowSet>false</ChangeRowSet>
+			<ChangeRowOrder>false</ChangeRowOrder>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<DataPath>Отчет.тзРезультат</DataPath>
+			<CommandSet>
+				<ExcludedCommand>Add</ExcludedCommand>
+				<ExcludedCommand>Change</ExcludedCommand>
+				<ExcludedCommand>Copy</ExcludedCommand>
+				<ExcludedCommand>Delete</ExcludedCommand>
+				<ExcludedCommand>EndEdit</ExcludedCommand>
+				<ExcludedCommand>MoveDown</ExcludedCommand>
+				<ExcludedCommand>MoveUp</ExcludedCommand>
+				<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+			</CommandSet>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="тзРезультатКонтекстноеМеню" id="6"/>
-			<AutoCommandBar name="тзРезультатКоманднаяПанель" id="7"/>
+			<AutoCommandBar name="тзРезультатКоманднаяПанель" id="7">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
 			<ExtendedTooltip name="тзРезультатРасширеннаяПодсказка" id="8"/>
 			<SearchStringAddition name="тзРезультатСтрокаПоиска" id="9">
 				<AdditionSource>
@@ -178,7 +192,7 @@
 	<Attributes>
 		<Attribute name="Отчет" id="1">
 			<Type>
-				<v8:Type>cfg:ReportObject.ПолучениеЛогов</v8:Type>
+				<v8:Type>cfg:ReportObject.ELK_ОтчетПоЛогам</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>

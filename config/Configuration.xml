@@ -149,11 +149,9 @@
 			<Constant>ELK_Сервер</Constant>
 			<Constant>ELK_Порт</Constant>
 			<Constant>ELK_Таймаут</Constant>
-			<Report>ПолучениеЛогов</Report>
+			<Report>ELK_ОтчетПоЛогам</Report>
 			<DataProcessor>ТестСозданиеЛогов</DataProcessor>
 			<DataProcessor>ELK_Настройки</DataProcessor>
-			<DataProcessor>ELK_ПолучениеЛогов</DataProcessor>
-			<DataProcessor>Тест_ПолучениеЛоговКомпоновщикНастроек</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

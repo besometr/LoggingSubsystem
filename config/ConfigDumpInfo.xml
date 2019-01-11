@@ -5,8 +5,8 @@
 		<Metadata name="CommonModule.ЛогированиеВызовСервера.Module" id="f1af1d30-7b8b-476a-9208-425d2098a7c8.0" configVersion="173a3c6d25f2bb4b915d8265d260c75700000000"/>
 		<Metadata name="CommonModule.ЛогированиеГлобальный" id="41252dfa-de98-4e65-a3ae-9807bb37c1a5" configVersion="ba8e286352a2fb46a9ebf8dda5d927ec00000000"/>
 		<Metadata name="CommonModule.ЛогированиеГлобальный.Module" id="41252dfa-de98-4e65-a3ae-9807bb37c1a5.0" configVersion="d5da501d0e2ab040a5311b6ce9fb072c00000000"/>
-		<Metadata name="CommonModule.ЛогированиеКлиентСервер" id="7fdf3066-7803-4690-88e1-a5f7a3691409" configVersion="3ce5cd661af99846a0acc7c0e83a903100000000"/>
-		<Metadata name="CommonModule.ЛогированиеКлиентСервер.Module" id="7fdf3066-7803-4690-88e1-a5f7a3691409.0" configVersion="e8ac704725403c429c060dc514aedb4a00000000"/>
+		<Metadata name="CommonModule.ЛогированиеКлиентСервер" id="7fdf3066-7803-4690-88e1-a5f7a3691409" configVersion="5de77605cf7fa24f9a74d0ec50dad8e500000000"/>
+		<Metadata name="CommonModule.ЛогированиеКлиентСервер.Module" id="7fdf3066-7803-4690-88e1-a5f7a3691409.0" configVersion="968e1092e4a57546821f06f67f90c2da00000000"/>
 		<Metadata name="CommonModule.ЛогированиеПереопределяемый" id="09d09c86-6bb5-484a-bb4e-a54ce75ec434" configVersion="2400f813fc01684985ab4ff3a640b80700000000"/>
 		<Metadata name="CommonModule.ЛогированиеПереопределяемый.Module" id="09d09c86-6bb5-484a-bb4e-a54ce75ec434.0" configVersion="b88dee207165e94c9e47e3cd54eb465200000000"/>
 		<Metadata name="CommonModule.ЛогированиеПовторногоИспользования" id="15a0ec2e-defe-48bc-96c0-e0998aa3f8ea" configVersion="b592b0ff36ed854c9e98ba88bae788c600000000"/>
@@ -29,7 +29,7 @@
 		<Metadata name="DataProcessor.ТестСозданиеЛогов.Form.Форма" id="c6edd5cb-e8d2-4953-8897-fef0ca1c5d9e" configVersion="db8f5d08b953cb4eaf06a8dc366892ba00000000"/>
 		<Metadata name="DataProcessor.ТестСозданиеЛогов.Form.Форма.Form" id="c6edd5cb-e8d2-4953-8897-fef0ca1c5d9e.0" configVersion="e5ef8709d82d844b9f74580c63f95fca00000000"/>
 		<Metadata name="Language.Русский" id="3aa62cb9-04be-444b-9992-591e3f3ad719" configVersion="e767776106de4247995ea730b98b9ce000000000"/>
-		<Metadata name="Report.ELK_ОтчетПоЛогам" id="fecf76b0-7a7b-40a8-9649-70c9616db0f7" configVersion="7e912601b0419d49b3fd3eb96d11343f00000000">
+		<Metadata name="Report.ELK_ОтчетПоЛогам" id="fecf76b0-7a7b-40a8-9649-70c9616db0f7" configVersion="c89dbdd8d99b2d4a8c251d1d4cf2b18e00000000">
 			<Metadata name="Report.ELK_ОтчетПоЛогам.TabularSection.тзРезультат.Attribute.node" id="152de778-1e33-4927-8249-bda016705b8e"/>
 			<Metadata name="Report.ELK_ОтчетПоЛогам.TabularSection.тзРезультат.Attribute.user" id="343dbe6d-04dc-472d-af81-6fb94bde1e76"/>
 			<Metadata name="Report.ELK_ОтчетПоЛогам.TabularSection.тзРезультат.Attribute.host" id="44428668-e6ab-4e18-bb5a-9fbe02a346e0"/>
@@ -53,9 +53,9 @@
 		<Metadata name="Report.ELK_ОтчетПоЛогам.Form.ФормаВарианта.Form" id="550ad2dc-7116-4405-8d56-1f5e275a7111.0" configVersion="f50b508fc9662043817f3d02f43adbca00000000"/>
 		<Metadata name="Report.ELK_ОтчетПоЛогам.Form.ФормаОтчета" id="125645bf-c71c-44e5-8081-9ff886605030" configVersion="fe11c487e5160d48b6d4de8f5a9013d300000000"/>
 		<Metadata name="Report.ELK_ОтчетПоЛогам.Form.ФормаОтчета.Form" id="125645bf-c71c-44e5-8081-9ff886605030.0" configVersion="354ada915677954180b8445099a96a9800000000"/>
-		<Metadata name="Report.ELK_ОтчетПоЛогам.ObjectModule" id="fecf76b0-7a7b-40a8-9649-70c9616db0f7.0" configVersion="91ea362327868249811f2a09436c28fd00000000"/>
-		<Metadata name="Report.ELK_ОтчетПоЛогам.Template.Макет" id="6ae96177-7e78-4c62-911e-3a28d3646423" configVersion="a759f0ee771e8e4883b8cd633a91e81200000000"/>
-		<Metadata name="Report.ELK_ОтчетПоЛогам.Template.Макет.Template" id="6ae96177-7e78-4c62-911e-3a28d3646423.0" configVersion="8fccc2da1763794488974686ba7fe9fa00000000"/>
+		<Metadata name="Report.ELK_ОтчетПоЛогам.ObjectModule" id="fecf76b0-7a7b-40a8-9649-70c9616db0f7.0" configVersion="33df99e36110ca44b4744a1b4a89720800000000"/>
+		<Metadata name="Report.ELK_ОтчетПоЛогам.Template.Макет" id="6ae96177-7e78-4c62-911e-3a28d3646423" configVersion="35ce06f6a28c0f43a3b86a27b9bc208a00000000"/>
+		<Metadata name="Report.ELK_ОтчетПоЛогам.Template.Макет.Template" id="6ae96177-7e78-4c62-911e-3a28d3646423.0" configVersion="c7e0cbd2c7181944848d73b3d38f291d00000000"/>
 		<Metadata name="SessionParameter.ПараметровПодключенияКELK" id="d3712aaa-5769-4c63-bb19-f414dae9bc5f" configVersion="4bc6de346fd9124b803f70d79d5b648c00000000"/>
 		<Metadata name="Subsystem.Служебные" id="dfc3cd1e-2778-4141-9f74-601a8398fda6" configVersion="4516f04475656b46b0748ef0fcaa7c7e00000000"/>
 		<Metadata name="Subsystem.Служебные.Subsystem.Логирование" id="7d51bbc4-e525-4090-853f-e54b1c4db15f" configVersion="64d4fe1cafc5de48a5924400195bebe000000000"/>

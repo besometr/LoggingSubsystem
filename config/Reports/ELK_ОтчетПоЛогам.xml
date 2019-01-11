@@ -26,7 +26,7 @@
 			<MainDataCompositionSchema>Report.ELK_ОтчетПоЛогам.Template.Макет</MainDataCompositionSchema>
 			<DefaultSettingsForm/>
 			<AuxiliarySettingsForm/>
-			<DefaultVariantForm/>
+			<DefaultVariantForm>Report.ELK_ОтчетПоЛогам.Form.ФормаВарианта</DefaultVariantForm>
 			<VariantsStorage/>
 			<SettingsStorage/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
@@ -248,7 +248,7 @@
 					</Attribute>
 					<Attribute uuid="b188c6a2-55d1-4ac7-9d36-a3d16acce74c">
 						<Properties>
-							<Name>_app</Name>
+							<Name>app</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -288,7 +288,7 @@
 					</Attribute>
 					<Attribute uuid="152de778-1e33-4927-8249-bda016705b8e">
 						<Properties>
-							<Name>_node</Name>
+							<Name>node</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -328,7 +328,7 @@
 					</Attribute>
 					<Attribute uuid="4fefc88c-74ec-4280-9f61-3a7e2cfb7eb4">
 						<Properties>
-							<Name>_branch</Name>
+							<Name>branch</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -368,7 +368,7 @@
 					</Attribute>
 					<Attribute uuid="343dbe6d-04dc-472d-af81-6fb94bde1e76">
 						<Properties>
-							<Name>_user</Name>
+							<Name>user</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -408,7 +408,7 @@
 					</Attribute>
 					<Attribute uuid="83144e67-51de-46ed-b1b6-3b8f04675f39">
 						<Properties>
-							<Name>_session</Name>
+							<Name>session</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -448,7 +448,7 @@
 					</Attribute>
 					<Attribute uuid="95d6f9ab-628a-47fe-9461-31f4095c027c">
 						<Properties>
-							<Name>_subsystem</Name>
+							<Name>subsystem</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -488,7 +488,7 @@
 					</Attribute>
 					<Attribute uuid="d9a98ed4-2496-451c-a2d4-0c7e5ab7a947">
 						<Properties>
-							<Name>_metadataObject</Name>
+							<Name>metadataObject</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -528,7 +528,7 @@
 					</Attribute>
 					<Attribute uuid="ebfef5d8-1cdc-4792-bef7-a96fa5313d1b">
 						<Properties>
-							<Name>_method</Name>
+							<Name>method</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -568,7 +568,7 @@
 					</Attribute>
 					<Attribute uuid="dd8cd1b2-f1b6-4865-b20b-e8c189cc7c17">
 						<Properties>
-							<Name>_tracepoint</Name>
+							<Name>tracepoint</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -608,7 +608,7 @@
 					</Attribute>
 					<Attribute uuid="fc6bfd86-6236-4e98-8e61-5a42360e2c19">
 						<Properties>
-							<Name>_object</Name>
+							<Name>object</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -648,7 +648,7 @@
 					</Attribute>
 					<Attribute uuid="ae094c51-b930-4a42-acd0-872ab9baaf71">
 						<Properties>
-							<Name>_extid</Name>
+							<Name>extid</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -769,6 +769,7 @@
 				</ChildObjects>
 			</TabularSection>
 			<Form>ФормаОтчета</Form>
+			<Form>ФормаВарианта</Form>
 			<Template>Макет</Template>
 		</ChildObjects>
 	</Report>

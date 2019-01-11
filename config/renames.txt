@@ -31,8 +31,12 @@ Ext\SessionModule.bsl-->Ext\SessionModule.bsl
 Languages\Русский.xml-->Languages\Русский.xml
 Reports\ELK_ОтчетПоЛогам.xml-->Reports\ELK_ОтчетПоЛогам.xml
 Reports\ELK_ОтчетПоЛогам\Ext\ObjectModule.bsl-->Reports\ELK_ОтчетПоЛогам\Ext\ObjectModule.bsl
+Reports\ELK_ОтчетПоЛогам\Forms\ФормаВарианта.xml-->Reports\ELK_ОтчетПоЛогам\Forms\ФормаВарианта.xml
 Reports\ELK_ОтчетПоЛогам\Forms\ФормаОтчета.xml-->Reports\ELK_ОтчетПоЛогам\Forms\ФормаОтчета.xml
+Reports\ELK_ОтчетПоЛогам\Forms\ФормаВарианта\Ext\Form.xml-->Reports\ELK_ОтчетПоЛогам\Forms\ФормаВарианта\Ext\Form.xml
+Reports\ELK_ОтчетПоЛогам\Forms\ФормаВарианта\Ext\Form\Module.bsl-->Reports\ELK_ОтчетПоЛогам\Forms\ФормаВарианта\Ext\Form\Module.bsl
 Reports\ELK_ОтчетПоЛогам\Forms\ФормаОтчета\Ext\Form.xml-->Reports\ELK_ОтчетПоЛогам\Forms\ФормаОтчета\Ext\Form.xml
+Reports\ELK_ОтчетПоЛогам\Forms\ФормаОтчета\Ext\Form\Module.bsl-->Reports\ELK_ОтчетПоЛогам\Forms\ФормаОтчета\Ext\Form\Module.bsl
 Reports\ELK_ОтчетПоЛогам\Templates\Макет.xml-->Reports\ELK_ОтчетПоЛогам\Templates\Макет.xml
 Reports\ELK_ОтчетПоЛогам\Templates\Макет\Ext\Template.xml-->Reports\ELK_ОтчетПоЛогам\Templates\Макет\Ext\Template.xml
 SessionParameters\ПараметровПодключенияКELK.xml-->SessionParameters\ПараметровПодключенияКELK.xml

@@ -15,8 +15,8 @@
 		<Metadata name="CommonModule.ЛогированиеСервер.Module" id="551b603d-f4ff-4f17-8f6c-a81a1e5ce8ab.0" configVersion="e7f04cef75763a4b8d5bda2a72fc8b0b00000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначения" id="52433983-8f38-4f06-9d81-16a4265d9b45" configVersion="1af2a29c67f88a4e81e8ee59c74ffe1b00000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="52433983-8f38-4f06-9d81-16a4265d9b45.0" configVersion="4f33c32bd4a7ce4ba7dc36f05d37944500000000"/>
-		<Metadata name="Configuration.LoggingSubsystem" id="11132c52-deb2-412f-a1e6-68be31452ffa" configVersion="e04678cf5c0ac943a1acdcb49121ccf500000000"/>
-		<Metadata name="Configuration.LoggingSubsystem.SessionModule" id="bf37616f-4b67-498e-91a6-a76dc8de13b0.7" configVersion="12fc101c27b41c4c9c5011c88844181400000000"/>
+		<Metadata name="Configuration.LoggingSubsystem" id="11132c52-deb2-412f-a1e6-68be31452ffa" configVersion="b036d943547a8f41a508855f0cfaf83a00000000"/>
+		<Metadata name="Configuration.LoggingSubsystem.SessionModule" id="bf37616f-4b67-498e-91a6-a76dc8de13b0.7" configVersion="d5074cb6b2d6294c822dda25d772bed100000000"/>
 		<Metadata name="Constant.ELK_Индекс" id="c2dbb370-965a-4315-8a81-9acaefb50c41" configVersion="4affa843e11624468c93c2da5070945900000000"/>
 		<Metadata name="Constant.ELK_Порт" id="b9132f80-2d20-44ef-aaf7-0c8c81c434ca" configVersion="69ac05fce453694bbb8832c330a887af00000000"/>
 		<Metadata name="Constant.ELK_Сервер" id="338dbefa-ac14-4b58-93d8-211340c36019" configVersion="e5632fbe88bd0e499756169250edca3900000000"/>

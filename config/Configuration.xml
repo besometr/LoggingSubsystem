@@ -172,7 +172,7 @@
 			<CommonModule>ЛогированиеПереопределяемый</CommonModule>
 			<CommonModule>ЛогированиеПовтИсп</CommonModule>
 			<CommonModule>ЛогированиеСервер</CommonModule>
-			<CommonModule>ОбщегоНазначения</CommonModule>
+			<CommonModule>ОбщегоНазначенияВызовСервера</CommonModule>
 			<Constant>ELK_Индекс</Constant>
 			<Constant>ELK_Порт</Constant>
 			<Constant>ELK_Сервер</Constant>

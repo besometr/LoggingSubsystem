@@ -11,11 +11,10 @@
 			</Synonym>
 			<Comment/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
-			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ELK_Настройки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ПараметровПодключенияКELK</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ELK_Индекс</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ELK_Тип</xr:Item>

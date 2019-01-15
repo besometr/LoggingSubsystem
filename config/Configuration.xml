@@ -50,7 +50,7 @@
 			</DefaultRoles>
 			<Vendor>ООО "ПЭК"</Vendor>
 			<Version>1.0.3.10</Version>
-			<UpdateCatalogAddress/>
+			<UpdateCatalogAddress>http://pecom.ru/</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
 			<UseOrdinaryFormInManagedApplication>false</UseOrdinaryFormInManagedApplication>
@@ -136,9 +136,19 @@
 					<v8:content>Logging subsystem, редакция 1.0</v8:content>
 				</v8:item>
 			</DetailedInformation>
-			<Copyright/>
+			<Copyright>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ООО "ПЭК"</v8:content>
+				</v8:item>
+			</Copyright>
 			<VendorInformationAddress/>
-			<ConfigurationInformationAddress/>
+			<ConfigurationInformationAddress>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>http://pecom.ru/</v8:content>
+				</v8:item>
+			</ConfigurationInformationAddress>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<ObjectAutonumerationMode>NotAutoFree</ObjectAutonumerationMode>
 			<ModalityUseMode>DontUse</ModalityUseMode>

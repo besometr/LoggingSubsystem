@@ -28,7 +28,7 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа настройки</v8:content>
+					<v8:content>Текщие настройки подключения к кластеру ELK</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Representation>None</Representation>
@@ -81,7 +81,7 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа кластер</v8:content>
+					<v8:content>Отображает свойства Кластера, установленного по умолчанию</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Group>Horizontal</Group>
@@ -112,7 +112,7 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа индексы</v8:content>
+					<v8:content>Отображает информацию о составе Индексов и их Типов</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Representation>None</Representation>
@@ -126,6 +126,12 @@
 					<SelectionMode>SingleRow</SelectionMode>
 					<AutoInsertNewRow>true</AutoInsertNewRow>
 					<DataPath>ДеревоСвойствИндексов</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дерево свойств Индексов</v8:content>
+						</v8:item>
+					</Title>
 					<CommandSet>
 						<ExcludedCommand>Add</ExcludedCommand>
 						<ExcludedCommand>Change</ExcludedCommand>
@@ -145,10 +151,10 @@
 					</CommandSet>
 					<ContextMenu name="ДеревоСвойствИндексовКонтекстноеМеню" id="83">
 						<ChildItems>
-							<Button name="дзСвойстваИндексовУстановитьИндексИТипПоУмолчанию" id="107">
+							<Button name="ДеревоСвойстваИндексовУстановитьИндексИТипПоУмолчанию" id="107">
 								<Type>CommandBarButton</Type>
 								<CommandName>Form.Command.УстановитьИндексИТипПоУмолчанию</CommandName>
-								<ExtendedTooltip name="дзСвойстваИндексовУстановитьИндексИТипПоУмолчаниюРасширеннаяПодсказка" id="108"/>
+								<ExtendedTooltip name="ДеревоСвойстваИндексовУстановитьИндексИТипПоУмолчаниюРасширеннаяПодсказка" id="108"/>
 							</Button>
 						</ChildItems>
 					</ContextMenu>
@@ -181,32 +187,32 @@
 						<ExtendedTooltip name="ДеревоСвойствИндексовУправлениеПоискомРасширеннаяПодсказка" id="94"/>
 					</SearchControlAddition>
 					<Events>
-						<Event name="OnActivateRow">дзСвойстваИндексовПриАктивизацииСтроки</Event>
+						<Event name="OnActivateRow">ДеревоСвойстваИндексовПриАктивизацииСтроки</Event>
 					</Events>
 					<ChildItems>
-						<InputField name="дзСвойстваИндексовИндекс" id="95">
+						<InputField name="ДеревоСвойстваИндексовИндекс" id="95">
 							<DataPath>ДеревоСвойствИндексов.Индекс</DataPath>
 							<EditMode>EnterOnInput</EditMode>
-							<ContextMenu name="дзСвойстваИндексовИндексКонтекстноеМеню" id="96"/>
-							<ExtendedTooltip name="дзСвойстваИндексовИндексРасширеннаяПодсказка" id="97"/>
+							<ContextMenu name="ДеревоСвойстваИндексовИндексКонтекстноеМеню" id="96"/>
+							<ExtendedTooltip name="ДеревоСвойстваИндексовИндексРасширеннаяПодсказка" id="97"/>
 						</InputField>
-						<InputField name="дзСвойстваИндексовТип" id="98">
+						<InputField name="ДеревоСвойстваИндексовТип" id="98">
 							<DataPath>ДеревоСвойствИндексов.Тип</DataPath>
 							<EditMode>EnterOnInput</EditMode>
-							<ContextMenu name="дзСвойстваИндексовТипКонтекстноеМеню" id="99"/>
-							<ExtendedTooltip name="дзСвойстваИндексовТипРасширеннаяПодсказка" id="100"/>
+							<ContextMenu name="ДеревоСвойстваИндексовТипКонтекстноеМеню" id="99"/>
+							<ExtendedTooltip name="ДеревоСвойстваИндексовТипРасширеннаяПодсказка" id="100"/>
 						</InputField>
-						<InputField name="дзСвойстваИндексовПоле" id="101">
+						<InputField name="ДеревоСвойстваИндексовПоле" id="101">
 							<DataPath>ДеревоСвойствИндексов.Поле</DataPath>
 							<EditMode>EnterOnInput</EditMode>
-							<ContextMenu name="дзСвойстваИндексовПолеКонтекстноеМеню" id="102"/>
-							<ExtendedTooltip name="дзСвойстваИндексовПолеРасширеннаяПодсказка" id="103"/>
+							<ContextMenu name="ДеревоСвойстваИндексовПолеКонтекстноеМеню" id="102"/>
+							<ExtendedTooltip name="ДеревоСвойстваИндексовПолеРасширеннаяПодсказка" id="103"/>
 						</InputField>
-						<InputField name="дзСвойстваИндексовТипПоля" id="104">
+						<InputField name="ДеревоСвойстваИндексовТипПоля" id="104">
 							<DataPath>ДеревоСвойствИндексов.ТипПоля</DataPath>
 							<EditMode>EnterOnInput</EditMode>
-							<ContextMenu name="дзСвойстваИндексовТипПоляКонтекстноеМеню" id="105"/>
-							<ExtendedTooltip name="дзСвойстваИндексовТипПоляРасширеннаяПодсказка" id="106"/>
+							<ContextMenu name="ДеревоСвойстваИндексовТипПоляКонтекстноеМеню" id="105"/>
+							<ExtendedTooltip name="ДеревоСвойстваИндексовТипПоляРасширеннаяПодсказка" id="106"/>
 						</InputField>
 					</ChildItems>
 				</Table>

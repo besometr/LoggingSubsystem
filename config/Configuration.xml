@@ -137,6 +137,7 @@
 			<Language>Русский</Language>
 			<Subsystem>Служебные</Subsystem>
 			<SessionParameter>ПараметровПодключенияКELK</SessionParameter>
+			<Role>ЛогированиеELK_ПолныеПрава</Role>
 			<CommonModule>ЛогированиеВызовСервера</CommonModule>
 			<CommonModule>ЛогированиеГлобальный</CommonModule>
 			<CommonModule>ЛогированиеКлиентСервер</CommonModule>

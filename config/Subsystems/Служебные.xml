@@ -14,7 +14,9 @@
 			<IncludeInCommandInterface>true</IncludeInCommandInterface>
 			<Explanation/>
 			<Picture/>
-			<Content/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Тестовый</xr:Item>
+			</Content>
 		</Properties>
 		<ChildObjects>
 			<Subsystem>Логирование</Subsystem>

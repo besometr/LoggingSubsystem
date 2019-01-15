@@ -178,6 +178,7 @@
 			<Constant>ELK_Сервер</Constant>
 			<Constant>ELK_Таймаут</Constant>
 			<Constant>ELK_Тип</Constant>
+			<Catalog>Тестовый</Catalog>
 			<Report>ELK_ОтчетПоЛогам</Report>
 			<DataProcessor>ELK_Настройки</DataProcessor>
 			<DataProcessor>ТестСозданиеЛогов</DataProcessor>

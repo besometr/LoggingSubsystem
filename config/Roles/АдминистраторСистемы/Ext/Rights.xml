@@ -1,81 +1,173 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Rights xmlns="http://v8.1c.ru/8.2/roles" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Rights" version="2.5">
-	<setForNewObjects>false</setForNewObjects>
+	<setForNewObjects>true</setForNewObjects>
 	<setForAttributesByDefault>true</setForAttributesByDefault>
-	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
+	<independentRightsOfChildObjects>true</independentRightsOfChildObjects>
 	<object>
-		<name>Configuration.LoggingSubsystem</name>
+		<name>Constant.ELK_Сервер</name>
 		<right>
-			<name>Administration</name>
-			<value>true</value>
+			<name>Read</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>DataAdministration</name>
-			<value>true</value>
+			<name>Update</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>UpdateDataBaseConfiguration</name>
-			<value>true</value>
+			<name>View</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>ExclusiveMode</name>
-			<value>true</value>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ТестСозданиеЛогов</name>
+		<right>
+			<name>Use</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>ActiveUsers</name>
-			<value>true</value>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ELK_Настройки</name>
+		<right>
+			<name>Use</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>EventLog</name>
-			<value>true</value>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.Служебные.Subsystem.Логирование.Subsystem.НастройкиПодключения</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.Служебные.Subsystem.Логирование</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ELK_Таймаут</name>
+		<right>
+			<name>Read</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>ThinClient</name>
-			<value>true</value>
+			<name>Update</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>WebClient</name>
-			<value>true</value>
+			<name>View</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>ThickClient</name>
-			<value>true</value>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.Служебные.Subsystem.Логирование.Subsystem.ELK</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ELK_Порт</name>
+		<right>
+			<name>Read</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>ExternalConnection</name>
-			<value>true</value>
+			<name>Update</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>Automation</name>
-			<value>true</value>
+			<name>View</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>AllFunctionsMode</name>
-			<value>true</value>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ELK_Индекс</name>
+		<right>
+			<name>Read</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>CollaborationSystemInfoBaseRegistration</name>
-			<value>true</value>
+			<name>Update</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>SaveUserData</name>
-			<value>true</value>
+			<name>View</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>ConfigurationExtensionsAdministration</name>
-			<value>true</value>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>SessionParameter.ПараметровПодключенияКELK</name>
+		<right>
+			<name>Get</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>InteractiveOpenExtDataProcessors</name>
-			<value>true</value>
+			<name>Set</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.Служебные</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ELK_Тип</name>
+		<right>
+			<name>Read</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>InteractiveOpenExtReports</name>
-			<value>true</value>
+			<name>Update</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>Output</name>
-			<value>true</value>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.ELK_ОтчетПоЛогам</name>
+		<right>
+			<name>Use</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
 		</right>
 	</object>
 </Rights>

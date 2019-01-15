@@ -15,13 +15,13 @@
 		<Metadata name="CommonModule.ЛогированиеСервер.Module" id="551b603d-f4ff-4f17-8f6c-a81a1e5ce8ab.0" configVersion="e7f04cef75763a4b8d5bda2a72fc8b0b00000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначения" id="52433983-8f38-4f06-9d81-16a4265d9b45" configVersion="1af2a29c67f88a4e81e8ee59c74ffe1b00000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="52433983-8f38-4f06-9d81-16a4265d9b45.0" configVersion="4f33c32bd4a7ce4ba7dc36f05d37944500000000"/>
-		<Metadata name="Configuration.LoggingSubsystem" id="11132c52-deb2-412f-a1e6-68be31452ffa" configVersion="695e01c82f53a74ab66af12344180c2500000000"/>
-		<Metadata name="Configuration.LoggingSubsystem.SessionModule" id="bf37616f-4b67-498e-91a6-a76dc8de13b0.7" configVersion="dc4dd6c548063548a583e48f5e60478500000000"/>
-		<Metadata name="Constant.ELK_Индекс" id="c2dbb370-965a-4315-8a81-9acaefb50c41" configVersion="4affa843e11624468c93c2da5070945900000000"/>
-		<Metadata name="Constant.ELK_Порт" id="b9132f80-2d20-44ef-aaf7-0c8c81c434ca" configVersion="69ac05fce453694bbb8832c330a887af00000000"/>
-		<Metadata name="Constant.ELK_Сервер" id="338dbefa-ac14-4b58-93d8-211340c36019" configVersion="e5632fbe88bd0e499756169250edca3900000000"/>
-		<Metadata name="Constant.ELK_Таймаут" id="81527185-7fa0-4cb2-8dab-1c378fcdc031" configVersion="e8d43940ebec654f81abd986439f67ff00000000"/>
-		<Metadata name="Constant.ELK_Тип" id="ed526d77-f5b4-4726-816c-668e5ab3e667" configVersion="c06011f07d5f854cb3e79192bff2a91600000000"/>
+		<Metadata name="Configuration.LoggingSubsystem" id="11132c52-deb2-412f-a1e6-68be31452ffa" configVersion="30040b2d723f1a44968880d4cbd110a900000000"/>
+		<Metadata name="Configuration.LoggingSubsystem.SessionModule" id="bf37616f-4b67-498e-91a6-a76dc8de13b0.7" configVersion="6dab347db5696f4186f8e3e56344891000000000"/>
+		<Metadata name="Constant.ELK_Индекс" id="c2dbb370-965a-4315-8a81-9acaefb50c41" configVersion="ba40266fe699814bbe9e5dee94beb72100000000"/>
+		<Metadata name="Constant.ELK_Порт" id="b9132f80-2d20-44ef-aaf7-0c8c81c434ca" configVersion="3958addaf4ff2e4e9276c84b124d885a00000000"/>
+		<Metadata name="Constant.ELK_Сервер" id="338dbefa-ac14-4b58-93d8-211340c36019" configVersion="46b83a3dc063384ca7181ba17bc1361900000000"/>
+		<Metadata name="Constant.ELK_Таймаут" id="81527185-7fa0-4cb2-8dab-1c378fcdc031" configVersion="bf68a2711da3ca458aeac7f5e34ceb1800000000"/>
+		<Metadata name="Constant.ELK_Тип" id="ed526d77-f5b4-4726-816c-668e5ab3e667" configVersion="56fda1ea71d3b2489712802e9b0c0f2d00000000"/>
 		<Metadata name="DataProcessor.ELK_Настройки" id="5c31fd41-5953-4020-892d-7d04d660bdad" configVersion="a8999fc6e9681a4f855ccb6d8281117b00000000"/>
 		<Metadata name="DataProcessor.ELK_Настройки.Form.Форма" id="6a867d7d-bbc9-4c62-85ec-c64832584652" configVersion="c93300967a651048b8dd9b3b4cb3af8200000000"/>
 		<Metadata name="DataProcessor.ELK_Настройки.Form.Форма.Form" id="6a867d7d-bbc9-4c62-85ec-c64832584652.0" configVersion="eed184cf9700724a81f4e5ffd8eb273e00000000"/>
@@ -56,8 +56,8 @@
 		<Metadata name="Report.ELK_ОтчетПоЛогам.ObjectModule" id="fecf76b0-7a7b-40a8-9649-70c9616db0f7.0" configVersion="03abc4af40387048975560c06038c1eb00000000"/>
 		<Metadata name="Report.ELK_ОтчетПоЛогам.Template.Макет" id="6ae96177-7e78-4c62-911e-3a28d3646423" configVersion="a1e2634eefdc1a48bc9ee9735d4d22a400000000"/>
 		<Metadata name="Report.ELK_ОтчетПоЛогам.Template.Макет.Template" id="6ae96177-7e78-4c62-911e-3a28d3646423.0" configVersion="733771cc6746b64aa431d1c5b3b4ab1f00000000"/>
-		<Metadata name="Role.АдминистраторСистемы" id="46eb14ce-5ff3-419a-8715-2f6e70483651" configVersion="26a92a8e22dd0048b0fffb2c3ac354a100000000"/>
-		<Metadata name="Role.АдминистраторСистемы.Rights" id="46eb14ce-5ff3-419a-8715-2f6e70483651.0" configVersion="0d8ee43985660947a6797b3426a4e5fa00000000"/>
+		<Metadata name="Role.АдминистраторСистемы" id="46eb14ce-5ff3-419a-8715-2f6e70483651" configVersion="f78189338ef58949874a98d6653d532600000000"/>
+		<Metadata name="Role.АдминистраторСистемы.Rights" id="46eb14ce-5ff3-419a-8715-2f6e70483651.0" configVersion="401dd0905be8654e9b7d9c37fb13d0e600000000"/>
 		<Metadata name="Role.ЛогированиеELK_ПолныеПрава" id="28c1c2f1-a05c-4005-a0c8-bf0ac1867a59" configVersion="18cbc47c87a7d44e88bd5177d0782d1e00000000"/>
 		<Metadata name="Role.ЛогированиеELK_ПолныеПрава.Rights" id="28c1c2f1-a05c-4005-a0c8-bf0ac1867a59.0" configVersion="8a78395b33d6704f87868f6c0324277800000000"/>
 		<Metadata name="Role.ПолныеПрава" id="b98f69ef-39f5-4645-a2e3-f3912663c79c" configVersion="6c1991ea0e26414d9e605a781424629900000000"/>
@@ -65,8 +65,8 @@
 		<Metadata name="SessionParameter.ПараметровПодключенияКELK" id="d3712aaa-5769-4c63-bb19-f414dae9bc5f" configVersion="4bc6de346fd9124b803f70d79d5b648c00000000"/>
 		<Metadata name="Subsystem.Служебные" id="dfc3cd1e-2778-4141-9f74-601a8398fda6" configVersion="4516f04475656b46b0748ef0fcaa7c7e00000000"/>
 		<Metadata name="Subsystem.Служебные.Subsystem.Логирование" id="7d51bbc4-e525-4090-853f-e54b1c4db15f" configVersion="64d4fe1cafc5de48a5924400195bebe000000000"/>
-		<Metadata name="Subsystem.Служебные.Subsystem.Логирование.Subsystem.ELK" id="8638209c-f945-4bf6-a8ac-da2b6b32eed2" configVersion="a0223d1bf744cd4f8da65c822e51caf100000000"/>
-		<Metadata name="Subsystem.Служебные.Subsystem.Логирование.Subsystem.НастройкиПодключения" id="5e9b744b-498b-4e70-bbe1-e4f368014df0" configVersion="85f4c3ddab27c64cb6aabfdbc8262fb900000000"/>
+		<Metadata name="Subsystem.Служебные.Subsystem.Логирование.Subsystem.ELK" id="8638209c-f945-4bf6-a8ac-da2b6b32eed2" configVersion="53c8b0b7f27e4f43b711255d499ae27d00000000"/>
+		<Metadata name="Subsystem.Служебные.Subsystem.Логирование.Subsystem.НастройкиПодключения" id="5e9b744b-498b-4e70-bbe1-e4f368014df0" configVersion="0f99133b12a7b54085f1bf50de8d4e4100000000"/>
 		<Metadata name="Subsystem.Служебные.Subsystem.Логирование.Subsystem.НастройкиПодключения.CommandInterface" id="5e9b744b-498b-4e70-bbe1-e4f368014df0.1" configVersion="5bbc1d8ff14f444d90637f88d810f48200000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

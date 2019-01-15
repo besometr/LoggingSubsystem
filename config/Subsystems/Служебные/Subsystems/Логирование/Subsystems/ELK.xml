@@ -22,10 +22,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеВызовСервера</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТестСозданиеЛогов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ead8e391-33ff-424c-b365-38a38fb74517</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">4a7174b7-7f5a-456f-9cc8-eb41269e8041</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">84bec77f-7c8e-479d-b5d3-8b0ec77a810c</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ELK_ОтчетПоЛогам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ELK_Настройки</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

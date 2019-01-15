@@ -43,12 +43,16 @@
 				<v8:Value xsi:type="app:ApplicationUsePurpose">PersonalComputer</v8:Value>
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
-			<DefaultRoles/>
+			<DefaultRoles>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЛогированиеELK_ПолныеПрава</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.АдминистраторСистемы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ПолныеПрава</xr:Item>
+			</DefaultRoles>
 			<Vendor>ООО "ПЭК"</Vendor>
 			<Version>1.0.3.10</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
-			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
+			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
 			<UseOrdinaryFormInManagedApplication>false</UseOrdinaryFormInManagedApplication>
 			<AdditionalFullTextSearchDictionaries/>
 			<CommonSettingsStorage/>
@@ -147,8 +151,8 @@
 			<Language>Русский</Language>
 			<Subsystem>Служебные</Subsystem>
 			<SessionParameter>ПараметровПодключенияКELK</SessionParameter>
-			<Role>ЛогированиеELK_ПолныеПрава</Role>
 			<Role>АдминистраторСистемы</Role>
+			<Role>ЛогированиеELK_ПолныеПрава</Role>
 			<Role>ПолныеПрава</Role>
 			<CommonModule>ЛогированиеВызовСервера</CommonModule>
 			<CommonModule>ЛогированиеГлобальный</CommonModule>
@@ -158,13 +162,13 @@
 			<CommonModule>ЛогированиеСервер</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
 			<Constant>ELK_Индекс</Constant>
-			<Constant>ELK_Тип</Constant>
-			<Constant>ELK_Сервер</Constant>
 			<Constant>ELK_Порт</Constant>
+			<Constant>ELK_Сервер</Constant>
 			<Constant>ELK_Таймаут</Constant>
+			<Constant>ELK_Тип</Constant>
 			<Report>ELK_ОтчетПоЛогам</Report>
-			<DataProcessor>ТестСозданиеЛогов</DataProcessor>
 			<DataProcessor>ELK_Настройки</DataProcessor>
+			<DataProcessor>ТестСозданиеЛогов</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

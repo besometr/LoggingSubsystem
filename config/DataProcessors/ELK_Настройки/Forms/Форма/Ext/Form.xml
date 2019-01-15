@@ -28,7 +28,7 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Текщие настройки подключения к кластеру ELK</v8:content>
+					<v8:content>Текущие настройки подключения к кластеру ELK</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Representation>None</Representation>

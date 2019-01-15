@@ -15,7 +15,7 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа тестирование</v8:content>
+					<v8:content>Свойства и параметры тестирование</v8:content>
 				</v8:item>
 			</ToolTip>
 			<ExtendedTooltip name="ГруппаТестированиеРасширеннаяПодсказка" id="6"/>
@@ -30,14 +30,14 @@
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа общее</v8:content>
+							<v8:content>Стандартные тесты</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ExtendedTooltip name="ГруппаОбщееРасширеннаяПодсказка" id="8"/>
 					<ChildItems>
 						<Button name="ПолучитьСтруктуруЛога" id="1">
 							<Type>UsualButton</Type>
-							<CommandName>Form.Command.ПолучитьСтруктуруЛога</CommandName>
+							<CommandName>Form.Command.СтруктураЛога</CommandName>
 							<ExtendedTooltip name="ПолучитьСтруктуруЛогаРасширеннаяПодсказка" id="2"/>
 						</Button>
 						<Button name="ОтправитьЛог" id="3">
@@ -57,7 +57,7 @@
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа кастом лог</v8:content>
+							<v8:content>Параметры параметризированного теста</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ExtendedTooltip name="ГруппаКастомЛогРасширеннаяПодсказка" id="10"/>
@@ -257,7 +257,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>ГУИДОбъекта</v8:content>
+					<v8:content>ГУИД объекта</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -286,20 +286,20 @@
 		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="ПолучитьСтруктуруЛога" id="1">
+		<Command name="СтруктураЛога" id="1">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Получить структуру лога</v8:content>
+					<v8:content>Структура лога</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Получить структуру лога</v8:content>
+					<v8:content>Структура лога</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>ПолучитьСтруктуруЛога</Action>
+			<Action>СтруктураЛога</Action>
 		</Command>
 		<Command name="ОтправитьТиповойЛог" id="2">
 			<Title>

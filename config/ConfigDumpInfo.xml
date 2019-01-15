@@ -56,7 +56,7 @@
 		<Metadata name="Report.ELK_ОтчетПоЛогам.ObjectModule" id="fecf76b0-7a7b-40a8-9649-70c9616db0f7.0" configVersion="03abc4af40387048975560c06038c1eb00000000"/>
 		<Metadata name="Report.ELK_ОтчетПоЛогам.Template.Макет" id="6ae96177-7e78-4c62-911e-3a28d3646423" configVersion="a1e2634eefdc1a48bc9ee9735d4d22a400000000"/>
 		<Metadata name="Report.ELK_ОтчетПоЛогам.Template.Макет.Template" id="6ae96177-7e78-4c62-911e-3a28d3646423.0" configVersion="733771cc6746b64aa431d1c5b3b4ab1f00000000"/>
-		<Metadata name="Role.ЛогированиеELK_ПолныеПрава" id="28c1c2f1-a05c-4005-a0c8-bf0ac1867a59" configVersion="4532e910b61cdd43bd95de5c8b024b5a00000000"/>
+		<Metadata name="Role.ЛогированиеELK_ПолныеПрава" id="28c1c2f1-a05c-4005-a0c8-bf0ac1867a59" configVersion="18cbc47c87a7d44e88bd5177d0782d1e00000000"/>
 		<Metadata name="Role.ЛогированиеELK_ПолныеПрава.Rights" id="28c1c2f1-a05c-4005-a0c8-bf0ac1867a59.0" configVersion="8a78395b33d6704f87868f6c0324277800000000"/>
 		<Metadata name="SessionParameter.ПараметровПодключенияКELK" id="d3712aaa-5769-4c63-bb19-f414dae9bc5f" configVersion="4bc6de346fd9124b803f70d79d5b648c00000000"/>
 		<Metadata name="Subsystem.Служебные" id="dfc3cd1e-2778-4141-9f74-601a8398fda6" configVersion="4516f04475656b46b0748ef0fcaa7c7e00000000"/>

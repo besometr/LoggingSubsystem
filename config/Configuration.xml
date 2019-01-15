@@ -168,7 +168,7 @@
 			<CommonModule>ЛогированиеГлобальный</CommonModule>
 			<CommonModule>ЛогированиеКлиентСервер</CommonModule>
 			<CommonModule>ЛогированиеПереопределяемый</CommonModule>
-			<CommonModule>ЛогированиеПовторногоИспользования</CommonModule>
+			<CommonModule>ЛогированиеПовтИсп</CommonModule>
 			<CommonModule>ЛогированиеСервер</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
 			<Constant>ELK_Индекс</Constant>

@@ -18,7 +18,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеГлобальный</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеКлиентСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеПереопределяемый</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеПовторногоИспользования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеПовтИсп</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеВызовСервера</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТестСозданиеЛогов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеСервер</xr:Item>

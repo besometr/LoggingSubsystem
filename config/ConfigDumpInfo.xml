@@ -15,7 +15,7 @@
 		<Metadata name="CommonModule.ЛогированиеСервер.Module" id="551b603d-f4ff-4f17-8f6c-a81a1e5ce8ab.0" configVersion="eaa7a9dea8e57c458c4cf3207555a32700000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначения" id="52433983-8f38-4f06-9d81-16a4265d9b45" configVersion="289c5c687dcee54d81e40f6043f3e49b00000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="52433983-8f38-4f06-9d81-16a4265d9b45.0" configVersion="2b358eb0b4f9d84a9018cf5e56fb778200000000"/>
-		<Metadata name="Configuration.LoggingSubsystem" id="11132c52-deb2-412f-a1e6-68be31452ffa" configVersion="74ae50f2a4d82f48893b372f11e654fb00000000"/>
+		<Metadata name="Configuration.LoggingSubsystem" id="11132c52-deb2-412f-a1e6-68be31452ffa" configVersion="c1f9c9948d8993479f2e39a05f9fc66400000000"/>
 		<Metadata name="Configuration.LoggingSubsystem.SessionModule" id="bf37616f-4b67-498e-91a6-a76dc8de13b0.7" configVersion="6dab347db5696f4186f8e3e56344891000000000"/>
 		<Metadata name="Constant.ELK_Индекс" id="c2dbb370-965a-4315-8a81-9acaefb50c41" configVersion="ba40266fe699814bbe9e5dee94beb72100000000"/>
 		<Metadata name="Constant.ELK_Порт" id="b9132f80-2d20-44ef-aaf7-0c8c81c434ca" configVersion="3958addaf4ff2e4e9276c84b124d885a00000000"/>
@@ -58,6 +58,8 @@
 		<Metadata name="Report.ELK_ОтчетПоЛогам.Template.Макет.Template" id="6ae96177-7e78-4c62-911e-3a28d3646423.0" configVersion="733771cc6746b64aa431d1c5b3b4ab1f00000000"/>
 		<Metadata name="Role.АдминистраторСистемы" id="46eb14ce-5ff3-419a-8715-2f6e70483651" configVersion="9b513105a5d4da4797299c07e7815b6000000000"/>
 		<Metadata name="Role.АдминистраторСистемы.Rights" id="46eb14ce-5ff3-419a-8715-2f6e70483651.0" configVersion="66a51a41b01a6e4ca6e18c6e945cfaa100000000"/>
+		<Metadata name="Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок" id="2ac8ae85-c362-4477-b088-8ce4ca87d0f9" configVersion="831821af78321641ae84e6676ca7bfaa00000000"/>
+		<Metadata name="Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок.Rights" id="2ac8ae85-c362-4477-b088-8ce4ca87d0f9.0" configVersion="d6664cfbf7884d4094db4db03c4fb78400000000"/>
 		<Metadata name="Role.ЛогированиеELK_ПолныеПрава" id="28c1c2f1-a05c-4005-a0c8-bf0ac1867a59" configVersion="ffd7be6a9785f542b63e6698fb6e2dc700000000"/>
 		<Metadata name="Role.ЛогированиеELK_ПолныеПрава.Rights" id="28c1c2f1-a05c-4005-a0c8-bf0ac1867a59.0" configVersion="23574b7c2dcfdf48b49ef9cb349ff4c700000000"/>
 		<Metadata name="Role.ПолныеПрава" id="b98f69ef-39f5-4645-a2e3-f3912663c79c" configVersion="dffcae0262b3d844be85c94b20d1d06500000000"/>

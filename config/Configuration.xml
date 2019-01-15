@@ -164,6 +164,7 @@
 			<Role>АдминистраторСистемы</Role>
 			<Role>ЛогированиеELK_ПолныеПрава</Role>
 			<Role>ПолныеПрава</Role>
+			<Role>ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</Role>
 			<CommonModule>ЛогированиеВызовСервера</CommonModule>
 			<CommonModule>ЛогированиеГлобальный</CommonModule>
 			<CommonModule>ЛогированиеКлиентСервер</CommonModule>

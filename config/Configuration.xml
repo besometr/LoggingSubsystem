@@ -47,6 +47,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ЛогированиеELK_ПолныеПрава</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АдминистраторСистемы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ПолныеПрава</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>ООО "ПЭК"</Vendor>
 			<Version>1.0.3.10</Version>
@@ -162,9 +163,9 @@
 			<Subsystem>Служебные</Subsystem>
 			<SessionParameter>ПараметровПодключенияКELK</SessionParameter>
 			<Role>АдминистраторСистемы</Role>
+			<Role>ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</Role>
 			<Role>ЛогированиеELK_ПолныеПрава</Role>
 			<Role>ПолныеПрава</Role>
-			<Role>ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</Role>
 			<CommonModule>ЛогированиеВызовСервера</CommonModule>
 			<CommonModule>ЛогированиеГлобальный</CommonModule>
 			<CommonModule>ЛогированиеКлиентСервер</CommonModule>

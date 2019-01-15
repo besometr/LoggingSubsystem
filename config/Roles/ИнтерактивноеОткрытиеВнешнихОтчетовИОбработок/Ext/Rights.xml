@@ -6,31 +6,11 @@
 	<object>
 		<name>Configuration.LoggingSubsystem</name>
 		<right>
-			<name>ThinClient</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>WebClient</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ThickClient</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SaveUserData</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>InteractiveOpenExtDataProcessors</name>
 			<value>true</value>
 		</right>
 		<right>
 			<name>InteractiveOpenExtReports</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Output</name>
 			<value>true</value>
 		</right>
 	</object>

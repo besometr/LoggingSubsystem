@@ -39,8 +39,12 @@ Reports\ELK_ОтчетПоЛогам\Forms\ФормаОтчета\Ext\Form.xml--
 Reports\ELK_ОтчетПоЛогам\Forms\ФормаОтчета\Ext\Form\Module.bsl-->Reports\ELK_ОтчетПоЛогам\Forms\ФормаОтчета\Ext\Form\Module.bsl
 Reports\ELK_ОтчетПоЛогам\Templates\Макет.xml-->Reports\ELK_ОтчетПоЛогам\Templates\Макет.xml
 Reports\ELK_ОтчетПоЛогам\Templates\Макет\Ext\Template.xml-->Reports\ELK_ОтчетПоЛогам\Templates\Макет\Ext\Template.xml
+Roles\АдминистраторСистемы.xml-->Roles\АдминистраторСистемы.xml
 Roles\ЛогированиеELK_ПолныеПрава.xml-->Roles\ЛогированиеELK_ПолныеПрава.xml
+Roles\ПолныеПрава.xml-->Roles\ПолныеПрава.xml
+Roles\АдминистраторСистемы\Ext\Rights.xml-->Roles\АдминистраторСистемы\Ext\Rights.xml
 Roles\ЛогированиеELK_ПолныеПрава\Ext\Rights.xml-->Roles\ЛогированиеELK_ПолныеПрава\Ext\Rights.xml
+Roles\ПолныеПрава\Ext\Rights.xml-->Roles\ПолныеПрава\Ext\Rights.xml
 SessionParameters\ПараметровПодключенияКELK.xml-->SessionParameters\ПараметровПодключенияКELK.xml
 Subsystems\Служебные.xml-->Subsystems\Служебные.xml
 Subsystems\Служебные\Subsystems\Логирование.xml-->Subsystems\Служебные\Subsystems\Логирование.xml

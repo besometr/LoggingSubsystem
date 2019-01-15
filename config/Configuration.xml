@@ -44,7 +44,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
-			<Vendor/>
+			<Vendor>ООО "ПЭК"</Vendor>
 			<Version>1.0.3.10</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
@@ -148,6 +148,8 @@
 			<Subsystem>Служебные</Subsystem>
 			<SessionParameter>ПараметровПодключенияКELK</SessionParameter>
 			<Role>ЛогированиеELK_ПолныеПрава</Role>
+			<Role>АдминистраторСистемы</Role>
+			<Role>ПолныеПрава</Role>
 			<CommonModule>ЛогированиеВызовСервера</CommonModule>
 			<CommonModule>ЛогированиеГлобальный</CommonModule>
 			<CommonModule>ЛогированиеКлиентСервер</CommonModule>

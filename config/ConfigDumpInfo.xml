@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.5">
 	<ConfigVersions>
-		<Metadata name="Catalog.Тестовый" id="ae21ab31-db34-4899-a94b-c8cc5f84970c" configVersion="84a2d143d1e8cb499fb3540ea05aebad00000000">
+		<Metadata name="Catalog.Тестовый" id="ae21ab31-db34-4899-a94b-c8cc5f84970c" configVersion="6a2c7c80182b1f4fa390912ff8ba7cd900000000">
+			<Metadata name="Catalog.Тестовый.Attribute.Реквизит2" id="a3905902-4709-4344-b62b-cf326699bf34"/>
 			<Metadata name="Catalog.Тестовый.Attribute.Реквизит1" id="b16e5135-73bc-4017-a81c-76d59e32b11e"/>
 		</Metadata>
 		<Metadata name="CommonModule.ЛогированиеВызовСервера" id="f1af1d30-7b8b-476a-9208-425d2098a7c8" configVersion="0a695c4108c2c84599526c85d7a6227400000000"/>
@@ -14,8 +15,8 @@
 		<Metadata name="CommonModule.ЛогированиеПереопределяемый.Module" id="09d09c86-6bb5-484a-bb4e-a54ce75ec434.0" configVersion="2c6a5515c803dd4d8988410ca37be4b300000000"/>
 		<Metadata name="CommonModule.ЛогированиеПовтИсп" id="15a0ec2e-defe-48bc-96c0-e0998aa3f8ea" configVersion="4602a7b20a800948a5e7dcbe39b22d4b00000000"/>
 		<Metadata name="CommonModule.ЛогированиеПовтИсп.Module" id="15a0ec2e-defe-48bc-96c0-e0998aa3f8ea.0" configVersion="9cc82c272d70f84a9bde431673f3c01800000000"/>
-		<Metadata name="CommonModule.ЛогированиеСервер" id="551b603d-f4ff-4f17-8f6c-a81a1e5ce8ab" configVersion="23481aa6ee74794795f6059de0e4339300000000"/>
-		<Metadata name="CommonModule.ЛогированиеСервер.Module" id="551b603d-f4ff-4f17-8f6c-a81a1e5ce8ab.0" configVersion="ec7f03f020df6a4fbe35adfdc2dfcd1300000000"/>
+		<Metadata name="CommonModule.ЛогированиеСервер" id="551b603d-f4ff-4f17-8f6c-a81a1e5ce8ab" configVersion="ea73851feab4484ba54c131532506d3900000000"/>
+		<Metadata name="CommonModule.ЛогированиеСервер.Module" id="551b603d-f4ff-4f17-8f6c-a81a1e5ce8ab.0" configVersion="88d3992c9489be4aa175753e9e1f671500000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияВызовСервера" id="52433983-8f38-4f06-9d81-16a4265d9b45" configVersion="a102404845772540a9c7977f32c68e4200000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияВызовСервера.Module" id="52433983-8f38-4f06-9d81-16a4265d9b45.0" configVersion="142766ff30090846819c9c8b3b93928d00000000"/>
 		<Metadata name="Configuration.LoggingSubsystem" id="11132c52-deb2-412f-a1e6-68be31452ffa" configVersion="d4c09a14e3494d4594e6b1ecdfc573b300000000"/>

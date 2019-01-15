@@ -26,8 +26,8 @@
 		<Metadata name="DataProcessor.ELK_Настройки.Form.Форма" id="6a867d7d-bbc9-4c62-85ec-c64832584652" configVersion="c93300967a651048b8dd9b3b4cb3af8200000000"/>
 		<Metadata name="DataProcessor.ELK_Настройки.Form.Форма.Form" id="6a867d7d-bbc9-4c62-85ec-c64832584652.0" configVersion="eed184cf9700724a81f4e5ffd8eb273e00000000"/>
 		<Metadata name="DataProcessor.ТестСозданиеЛогов" id="3bb8cc96-2f54-4f41-86a0-e9a32595b218" configVersion="dfdcee5d1847eb43889dfef99aa6c2d400000000"/>
-		<Metadata name="DataProcessor.ТестСозданиеЛогов.Form.Форма" id="c6edd5cb-e8d2-4953-8897-fef0ca1c5d9e" configVersion="db8f5d08b953cb4eaf06a8dc366892ba00000000"/>
-		<Metadata name="DataProcessor.ТестСозданиеЛогов.Form.Форма.Form" id="c6edd5cb-e8d2-4953-8897-fef0ca1c5d9e.0" configVersion="e5ef8709d82d844b9f74580c63f95fca00000000"/>
+		<Metadata name="DataProcessor.ТестСозданиеЛогов.Form.Форма" id="c6edd5cb-e8d2-4953-8897-fef0ca1c5d9e" configVersion="1f4357d1b1977f438a0ca9c22151ddf700000000"/>
+		<Metadata name="DataProcessor.ТестСозданиеЛогов.Form.Форма.Form" id="c6edd5cb-e8d2-4953-8897-fef0ca1c5d9e.0" configVersion="33bd1f6c320c96468fc0215d6a3965ef00000000"/>
 		<Metadata name="Language.Русский" id="3aa62cb9-04be-444b-9992-591e3f3ad719" configVersion="e767776106de4247995ea730b98b9ce000000000"/>
 		<Metadata name="Report.ELK_ОтчетПоЛогам" id="fecf76b0-7a7b-40a8-9649-70c9616db0f7" configVersion="1a62943afee6a24d9b1442e2a08c6d3000000000">
 			<Metadata name="Report.ELK_ОтчетПоЛогам.TabularSection.тзРезультат.Attribute.node" id="152de778-1e33-4927-8249-bda016705b8e"/>

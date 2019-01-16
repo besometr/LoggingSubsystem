@@ -15,11 +15,11 @@
 		<Metadata name="CommonModule.ЛогированиеПереопределяемый.Module" id="09d09c86-6bb5-484a-bb4e-a54ce75ec434.0" configVersion="2c6a5515c803dd4d8988410ca37be4b300000000"/>
 		<Metadata name="CommonModule.ЛогированиеПовтИсп" id="15a0ec2e-defe-48bc-96c0-e0998aa3f8ea" configVersion="4602a7b20a800948a5e7dcbe39b22d4b00000000"/>
 		<Metadata name="CommonModule.ЛогированиеПовтИсп.Module" id="15a0ec2e-defe-48bc-96c0-e0998aa3f8ea.0" configVersion="9cc82c272d70f84a9bde431673f3c01800000000"/>
-		<Metadata name="CommonModule.ЛогированиеСервер" id="551b603d-f4ff-4f17-8f6c-a81a1e5ce8ab" configVersion="dd538fb59186bb40ae5291b3625285d500000000"/>
-		<Metadata name="CommonModule.ЛогированиеСервер.Module" id="551b603d-f4ff-4f17-8f6c-a81a1e5ce8ab.0" configVersion="941b34270c85aa4982bd1c8f1092475e00000000"/>
+		<Metadata name="CommonModule.ЛогированиеСервер" id="551b603d-f4ff-4f17-8f6c-a81a1e5ce8ab" configVersion="5a9cd470b48e804780559b11b8dc526800000000"/>
+		<Metadata name="CommonModule.ЛогированиеСервер.Module" id="551b603d-f4ff-4f17-8f6c-a81a1e5ce8ab.0" configVersion="e8a9ebac9d4ea440bb64124b47c6fca900000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияВызовСервера" id="52433983-8f38-4f06-9d81-16a4265d9b45" configVersion="a102404845772540a9c7977f32c68e4200000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияВызовСервера.Module" id="52433983-8f38-4f06-9d81-16a4265d9b45.0" configVersion="142766ff30090846819c9c8b3b93928d00000000"/>
-		<Metadata name="Configuration.LoggingSubsystem" id="11132c52-deb2-412f-a1e6-68be31452ffa" configVersion="504257e508e0eb4b9c4b8f8219d68b5f00000000"/>
+		<Metadata name="Configuration.LoggingSubsystem" id="11132c52-deb2-412f-a1e6-68be31452ffa" configVersion="451dc2454ac64b4f83e0f2ad0730bfb500000000"/>
 		<Metadata name="Configuration.LoggingSubsystem.SessionModule" id="bf37616f-4b67-498e-91a6-a76dc8de13b0.7" configVersion="59758f65a2bfee489079ce3ec659517b00000000"/>
 		<Metadata name="Constant.ELK_Индекс" id="c2dbb370-965a-4315-8a81-9acaefb50c41" configVersion="ba40266fe699814bbe9e5dee94beb72100000000"/>
 		<Metadata name="Constant.ELK_Порт" id="b9132f80-2d20-44ef-aaf7-0c8c81c434ca" configVersion="3958addaf4ff2e4e9276c84b124d885a00000000"/>

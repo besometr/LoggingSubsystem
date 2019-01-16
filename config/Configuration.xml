@@ -50,7 +50,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>ООО "ПЭК"</Vendor>
-			<Version>1.0.3.10</Version>
+			<Version>1.0.3.11</Version>
 			<UpdateCatalogAddress>http://pecom.ru/</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>

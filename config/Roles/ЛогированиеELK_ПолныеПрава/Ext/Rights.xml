@@ -11,25 +11,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.ELK_Сервер</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.ТестСозданиеЛогов</name>
 		<right>
 			<name>Use</name>
@@ -66,25 +47,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.ELK_Таймаут</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Subsystem.Служебные.Subsystem.Логирование.Subsystem.ELK</name>
 		<right>
 			<name>View</name>
@@ -92,45 +54,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.ELK_Порт</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.ELK_Индекс</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>SessionParameter.ПараметровПодключенияКELK</name>
+		<name>SessionParameter.ПараметрыПодключенияКELK_Чтение</name>
 		<right>
 			<name>Get</name>
 			<value>true</value>
@@ -144,25 +68,6 @@
 		<name>Subsystem.Служебные</name>
 		<right>
 			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.ELK_Тип</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
 			<value>true</value>
 		</right>
 	</object>

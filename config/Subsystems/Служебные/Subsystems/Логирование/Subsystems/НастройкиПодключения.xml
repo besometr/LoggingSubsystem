@@ -15,12 +15,13 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ПараметровПодключенияКELK</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.ELK_Индекс</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.ELK_Тип</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.ELK_Сервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.ELK_Порт</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.ELK_Таймаут</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ПараметрыПодключенияКELK_Чтение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">c2dbb370-965a-4315-8a81-9acaefb50c41</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ed526d77-f5b4-4726-816c-668e5ab3e667</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">338dbefa-ac14-4b58-93d8-211340c36019</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">b9132f80-2d20-44ef-aaf7-0c8c81c434ca</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">81527185-7fa0-4cb2-8dab-1c378fcdc031</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПараметрыПодключенияКELK</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -12,6 +12,16 @@
 				</Picture>
 				<ExtendedTooltip name="ПолучитьСписокИндексовРасширеннаяПодсказка" id="2"/>
 			</Button>
+			<Button name="СохранитьНастройкиПодключения" id="55">
+				<Type>CommandBarButton</Type>
+				<Representation>Picture</Representation>
+				<CommandName>Form.Command.СохранитьНастройкиПодключения</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.Write</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="СохранитьНастройкиПодключенияРасширеннаяПодсказка" id="56"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
@@ -31,44 +41,100 @@
 					<v8:content>Текущие настройки подключения к кластеру ELK</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Group>Vertical</Group>
 			<Representation>None</Representation>
 			<ExtendedTooltip name="ГруппаНастройкиРасширеннаяПодсказка" id="6"/>
 			<ChildItems>
-				<InputField name="Индекс" id="40">
-					<DataPath>Индекс</DataPath>
-					<ContextMenu name="ИндексКонтекстноеМеню" id="41"/>
-					<ExtendedTooltip name="ИндексРасширеннаяПодсказка" id="42"/>
-				</InputField>
-				<InputField name="Тип" id="43">
-					<DataPath>Тип</DataPath>
-					<ContextMenu name="ТипКонтекстноеМеню" id="44"/>
-					<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="45"/>
-				</InputField>
-				<InputField name="Сервер" id="46">
-					<DataPath>Сервер</DataPath>
-					<ContextMenu name="СерверКонтекстноеМеню" id="47"/>
-					<ExtendedTooltip name="СерверРасширеннаяПодсказка" id="48"/>
-				</InputField>
-				<InputField name="Порт" id="49">
-					<DataPath>Порт</DataPath>
-					<ContextMenu name="ПортКонтекстноеМеню" id="50"/>
-					<ExtendedTooltip name="ПортРасширеннаяПодсказка" id="51"/>
-				</InputField>
-				<InputField name="Таймаут" id="52">
-					<DataPath>Таймаут</DataPath>
-					<ContextMenu name="ТаймаутКонтекстноеМеню" id="53"/>
-					<ExtendedTooltip name="ТаймаутРасширеннаяПодсказка" id="54"/>
-				</InputField>
-				<Button name="СохранитьНастройкиПодключения" id="55">
-					<Type>UsualButton</Type>
-					<Representation>Picture</Representation>
-					<CommandName>Form.Command.СохранитьНастройкиПодключения</CommandName>
-					<Picture>
-						<xr:Ref>StdPicture.Write</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
-					</Picture>
-					<ExtendedTooltip name="СохранитьНастройкиПодключенияРасширеннаяПодсказка" id="56"/>
-				</Button>
+				<UsualGroup name="ГруппаНастройкиДляЧтеничя" id="109">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки подключения к ELK для чтеничя</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа настройки для чтеничя</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Horizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаНастройкиДляЧтеничяРасширеннаяПодсказка" id="110"/>
+					<ChildItems>
+						<InputField name="Сервер_Чтение" id="46">
+							<DataPath>Сервер_Чтение</DataPath>
+							<ContextMenu name="Сервер_ЧтениеКонтекстноеМеню" id="47"/>
+							<ExtendedTooltip name="Сервер_ЧтениеРасширеннаяПодсказка" id="48"/>
+						</InputField>
+						<InputField name="Порт_Чтение" id="49">
+							<DataPath>Порт_Чтение</DataPath>
+							<ContextMenu name="Порт_ЧтениеКонтекстноеМеню" id="50"/>
+							<ExtendedTooltip name="Порт_ЧтениеРасширеннаяПодсказка" id="51"/>
+						</InputField>
+						<InputField name="Индекс_Чтение" id="40">
+							<DataPath>Индекс_Чтение</DataPath>
+							<ContextMenu name="Индекс_ЧтениеКонтекстноеМеню" id="41"/>
+							<ExtendedTooltip name="Индекс_ЧтениеРасширеннаяПодсказка" id="42"/>
+						</InputField>
+						<InputField name="Тип_Чтение" id="43">
+							<DataPath>Тип_Чтение</DataPath>
+							<ContextMenu name="Тип_ЧтениеКонтекстноеМеню" id="44"/>
+							<ExtendedTooltip name="Тип_ЧтениеРасширеннаяПодсказка" id="45"/>
+						</InputField>
+						<InputField name="Таймаут_Чтение" id="52">
+							<DataPath>Таймаут_Чтение</DataPath>
+							<ContextMenu name="Таймаут_ЧтениеКонтекстноеМеню" id="53"/>
+							<ExtendedTooltip name="Таймаут_ЧтениеРасширеннаяПодсказка" id="54"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаНастройкиДляЗаписи" id="111">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки подключения к ELK  для записи</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа настройки для записи</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Horizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаНастройкиДляЗаписиРасширеннаяПодсказка" id="112"/>
+					<ChildItems>
+						<InputField name="Сервер_Запись" id="113">
+							<DataPath>Сервер_Запись</DataPath>
+							<ContextMenu name="Сервер_ЗаписьКонтекстноеМеню" id="114"/>
+							<ExtendedTooltip name="Сервер_ЗаписьРасширеннаяПодсказка" id="115"/>
+						</InputField>
+						<InputField name="Порт_Запись" id="116">
+							<DataPath>Порт_Запись</DataPath>
+							<ContextMenu name="Порт_ЗаписьКонтекстноеМеню" id="117"/>
+							<ExtendedTooltip name="Порт_ЗаписьРасширеннаяПодсказка" id="118"/>
+						</InputField>
+						<InputField name="Индекс_Запись" id="119">
+							<DataPath>Индекс_Запись</DataPath>
+							<ContextMenu name="Индекс_ЗаписьКонтекстноеМеню" id="120"/>
+							<ExtendedTooltip name="Индекс_ЗаписьРасширеннаяПодсказка" id="121"/>
+						</InputField>
+						<InputField name="Тип_Запись" id="122">
+							<DataPath>Тип_Запись</DataPath>
+							<ContextMenu name="Тип_ЗаписьКонтекстноеМеню" id="123"/>
+							<ExtendedTooltip name="Тип_ЗаписьРасширеннаяПодсказка" id="124"/>
+						</InputField>
+						<InputField name="Таймаут_Запись" id="125">
+							<DataPath>Таймаут_Запись</DataPath>
+							<ContextMenu name="Таймаут_ЗаписьКонтекстноеМеню" id="126"/>
+							<ExtendedTooltip name="Таймаут_ЗаписьРасширеннаяПодсказка" id="127"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаКластер" id="7">
@@ -256,7 +322,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="Индекс" id="5">
+		<Attribute name="Индекс_Чтение" id="5">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -271,7 +337,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="Тип" id="6">
+		<Attribute name="Тип_Чтение" id="6">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -286,7 +352,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="Сервер" id="7">
+		<Attribute name="Сервер_Чтение" id="7">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -301,7 +367,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="Порт" id="8">
+		<Attribute name="Порт_Чтение" id="8">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -317,7 +383,7 @@
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="Таймаут" id="9">
+		<Attribute name="Таймаут_Чтение" id="9">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -405,6 +471,83 @@
 					</Type>
 				</Column>
 			</Columns>
+		</Attribute>
+		<Attribute name="Сервер_Запись" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сервер</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Порт_Запись" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Порт</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>5</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Индекс_Запись" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Индекс</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Тип_Запись" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Таймаут_Запись" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таймаут</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>3</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>

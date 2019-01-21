@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
 	<CommandsVisibility>
-		<Command name="Constant.ELK_Индекс.StandardCommand.Open">
+		<Command name="100:c2dbb370-965a-4315-8a81-9acaefb50c41">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.ELK_Порт.StandardCommand.Open">
+		<Command name="100:b9132f80-2d20-44ef-aaf7-0c8c81c434ca">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.ELK_Сервер.StandardCommand.Open">
+		<Command name="100:338dbefa-ac14-4b58-93d8-211340c36019">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.ELK_Таймаут.StandardCommand.Open">
+		<Command name="100:81527185-7fa0-4cb2-8dab-1c378fcdc031">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Constant.ELK_Тип.StandardCommand.Open">
+		<Command name="100:ed526d77-f5b4-4726-816c-668e5ab3e667">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>

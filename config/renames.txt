@@ -15,11 +15,6 @@ CommonModules\ЛогированиеПереопределяемый\Ext\Module.
 CommonModules\ЛогированиеПовтИсп\Ext\Module.bsl-->CommonModules\ЛогированиеПовтИсп\Ext\Module.bsl
 CommonModules\ЛогированиеСервер\Ext\Module.bsl-->CommonModules\ЛогированиеСервер\Ext\Module.bsl
 CommonModules\ОбщегоНазначенияВызовСервера\Ext\Module.bsl-->CommonModules\ОбщегоНазначенияВызовСервера\Ext\Module.bsl
-Constants\ELK_Индекс.xml-->Constants\ELK_Индекс.xml
-Constants\ELK_Порт.xml-->Constants\ELK_Порт.xml
-Constants\ELK_Сервер.xml-->Constants\ELK_Сервер.xml
-Constants\ELK_Таймаут.xml-->Constants\ELK_Таймаут.xml
-Constants\ELK_Тип.xml-->Constants\ELK_Тип.xml
 DataProcessors\ELK_Настройки.xml-->DataProcessors\ELK_Настройки.xml
 DataProcessors\ТестСозданиеЛогов.xml-->DataProcessors\ТестСозданиеЛогов.xml
 DataProcessors\ELK_Настройки\Forms\Форма.xml-->DataProcessors\ELK_Настройки\Forms\Форма.xml
@@ -28,7 +23,9 @@ DataProcessors\ELK_Настройки\Forms\Форма\Ext\Form\Module.bsl-->Dat
 DataProcessors\ТестСозданиеЛогов\Forms\Форма.xml-->DataProcessors\ТестСозданиеЛогов\Forms\Форма.xml
 DataProcessors\ТестСозданиеЛогов\Forms\Форма\Ext\Form.xml-->DataProcessors\ТестСозданиеЛогов\Forms\Форма\Ext\Form.xml
 DataProcessors\ТестСозданиеЛогов\Forms\Форма\Ext\Form\Module.bsl-->DataProcessors\ТестСозданиеЛогов\Forms\Форма\Ext\Form\Module.bsl
+Enums\ТипыНастроекПодключенияКELK.xml-->Enums\ТипыНастроекПодключенияКELK.xml
 Ext\SessionModule.bsl-->Ext\SessionModule.bsl
+InformationRegisters\ПараметрыПодключенияКELK.xml-->InformationRegisters\ПараметрыПодключенияКELK.xml
 Languages\Русский.xml-->Languages\Русский.xml
 Reports\ELK_ОтчетПоЛогам.xml-->Reports\ELK_ОтчетПоЛогам.xml
 Reports\ELK_ОтчетПоЛогам\Ext\ObjectModule.bsl-->Reports\ELK_ОтчетПоЛогам\Ext\ObjectModule.bsl
@@ -48,7 +45,8 @@ Roles\АдминистраторСистемы\Ext\Rights.xml-->Roles\Админ
 Roles\ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок\Ext\Rights.xml-->Roles\ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок\Ext\Rights.xml
 Roles\ЛогированиеELK_ПолныеПрава\Ext\Rights.xml-->Roles\ЛогированиеELK_ПолныеПрава\Ext\Rights.xml
 Roles\ПолныеПрава\Ext\Rights.xml-->Roles\ПолныеПрава\Ext\Rights.xml
-SessionParameters\ПараметровПодключенияКELK.xml-->SessionParameters\ПараметровПодключенияКELK.xml
+SessionParameters\ПараметрыПодключенияКELK_Запись.xml-->SessionParameters\ПараметрыПодключенияКELK_Запись.xml
+SessionParameters\ПараметрыПодключенияКELK_Чтение.xml-->SessionParameters\ПараметрыПодключенияКELK_Чтение.xml
 Subsystems\Служебные.xml-->Subsystems\Служебные.xml
 Subsystems\Служебные\Subsystems\Логирование.xml-->Subsystems\Служебные\Subsystems\Логирование.xml
 Subsystems\Служебные\Subsystems\Логирование\Subsystems\ELK.xml-->Subsystems\Служебные\Subsystems\Логирование\Subsystems\ELK.xml

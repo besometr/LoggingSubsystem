@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
-	<DataProcessor uuid="5c31fd41-5953-4020-892d-7d04d660bdad">
+	<DataProcessor uuid="3bb8cc96-2f54-4f41-86a0-e9a32595b218">
 		<InternalInfo>
-			<xr:GeneratedType name="DataProcessorObject.ELK_Настройки" category="Object">
-				<xr:TypeId>25387131-bedc-4956-aea3-55df9e1f49c5</xr:TypeId>
-				<xr:ValueId>28aae432-d910-453d-8787-f5a597183773</xr:ValueId>
+			<xr:GeneratedType name="DataProcessorObject.ELK_ТестСозданиеЛогов" category="Object">
+				<xr:TypeId>dc01b33d-ebad-40d3-8354-e26e30f4d62a</xr:TypeId>
+				<xr:ValueId>8a059d68-4629-49af-8353-36789f236d5b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DataProcessorManager.ELK_Настройки" category="Manager">
-				<xr:TypeId>c3ca104b-7167-4433-93f2-baa8f51be99f</xr:TypeId>
-				<xr:ValueId>13c3d4fd-ea38-4bf1-af9b-9380fc62f651</xr:ValueId>
+			<xr:GeneratedType name="DataProcessorManager.ELK_ТестСозданиеЛогов" category="Manager">
+				<xr:TypeId>8ec9bf1e-9fb3-440e-af12-62af1cd1d3a2</xr:TypeId>
+				<xr:ValueId>6460522c-49fd-418f-94be-101f83ee9304</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ELK_Настройки</Name>
+			<Name>ELK_ТестСозданиеЛогов</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>ELK: Настройки</v8:content>
+					<v8:content>ELK: Тест создание логов</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultForm>DataProcessor.ELK_Настройки.Form.Форма</DefaultForm>
+			<DefaultForm>DataProcessor.ELK_ТестСозданиеЛогов.Form.Форма</DefaultForm>
 			<AuxiliaryForm/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<ExtendedPresentation/>

@@ -2,11 +2,38 @@
 <Rights xmlns="http://v8.1c.ru/8.2/roles" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Rights" version="2.5">
 	<setForNewObjects>false</setForNewObjects>
 	<setForAttributesByDefault>true</setForAttributesByDefault>
-	<independentRightsOfChildObjects>true</independentRightsOfChildObjects>
+	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
 		<name>Configuration.LoggingSubsystem</name>
 		<right>
-			<name>CollaborationSystemInfoBaseRegistration</name>
+			<name>ThinClient</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>WebClient</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ThickClient</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SaveUserData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Output</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>SessionParameter.ПараметрыПодключенияКELK_Запись</name>
+		<right>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Set</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -22,34 +49,9 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ELK_Настройки</name>
+		<name>InformationRegister.ПараметрыПодключенияКELK</name>
 		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Subsystem.Служебные.Subsystem.Логирование.Subsystem.ELK_НастройкиПодключения</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Subsystem.Служебные.Subsystem.Логирование</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Subsystem.Служебные.Subsystem.Логирование.Subsystem.ELK</name>
-		<right>
-			<name>View</name>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -61,13 +63,6 @@
 		</right>
 		<right>
 			<name>Set</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Subsystem.Служебные</name>
-		<right>
-			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

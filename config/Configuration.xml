@@ -161,11 +161,13 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>Служебные</Subsystem>
+			<CommonPicture>Служебные</CommonPicture>
 			<SessionParameter>ПараметрыПодключенияКELK_Чтение</SessionParameter>
 			<SessionParameter>ПараметрыПодключенияКELK_Запись</SessionParameter>
 			<Role>АдминистраторСистемы</Role>
 			<Role>ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</Role>
 			<Role>ЛогированиеELK_ПолныеПрава</Role>
+			<Role>ЛогированиеELK_Пользователь</Role>
 			<Role>ПолныеПрава</Role>
 			<CommonModule>ЛогированиеВызовСервера</CommonModule>
 			<CommonModule>ЛогированиеГлобальный</CommonModule>
@@ -178,7 +180,7 @@
 			<Enum>ТипыНастроекПодключенияКELK</Enum>
 			<Report>ELK_ОтчетПоЛогам</Report>
 			<DataProcessor>ELK_Настройки</DataProcessor>
-			<DataProcessor>ТестСозданиеЛогов</DataProcessor>
+			<DataProcessor>ELK_ТестСозданиеЛогов</DataProcessor>
 			<InformationRegister>ПараметрыПодключенияКELK</InformationRegister>
 		</ChildObjects>
 	</Configuration>

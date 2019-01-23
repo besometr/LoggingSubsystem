@@ -10,15 +10,30 @@
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<IncludeInCommandInterface>true</IncludeInCommandInterface>
 			<Explanation/>
 			<Picture/>
-			<Content/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеГлобальный</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеПереопределяемый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ПараметрыПодключенияКELK_Чтение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ПараметрыПодключенияКELK_Запись</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЛогированиеELK_ПолныеПрава</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыНастроекПодключенияКELK</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ELK_ОтчетПоЛогам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ELK_Настройки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ELK_ТестСозданиеЛогов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПараметрыПодключенияКELK</xr:Item>
+			</Content>
 		</Properties>
 		<ChildObjects>
 			<Subsystem>ELK</Subsystem>
-			<Subsystem>НастройкиПодключения</Subsystem>
+			<Subsystem>ELK_НастройкиПодключения</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

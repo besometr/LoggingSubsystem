@@ -1,34 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
-	<DataProcessor uuid="3bb8cc96-2f54-4f41-86a0-e9a32595b218">
-		<InternalInfo>
-			<xr:GeneratedType name="DataProcessorObject.ТестСозданиеЛогов" category="Object">
-				<xr:TypeId>dc01b33d-ebad-40d3-8354-e26e30f4d62a</xr:TypeId>
-				<xr:ValueId>8a059d68-4629-49af-8353-36789f236d5b</xr:ValueId>
-			</xr:GeneratedType>
-			<xr:GeneratedType name="DataProcessorManager.ТестСозданиеЛогов" category="Manager">
-				<xr:TypeId>8ec9bf1e-9fb3-440e-af12-62af1cd1d3a2</xr:TypeId>
-				<xr:ValueId>6460522c-49fd-418f-94be-101f83ee9304</xr:ValueId>
-			</xr:GeneratedType>
-		</InternalInfo>
+	<Subsystem uuid="5e9b744b-498b-4e70-bbe1-e4f368014df0">
 		<Properties>
-			<Name>ТестСозданиеЛогов</Name>
+			<Name>ELK_НастройкиПодключения</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Тест создание логов</v8:content>
+					<v8:content>ELK: Настройки подключения</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultForm>DataProcessor.ТестСозданиеЛогов.Form.Форма</DefaultForm>
-			<AuxiliaryForm/>
-			<IncludeHelpInContents>false</IncludeHelpInContents>
-			<ExtendedPresentation/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
 			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ПараметрыПодключенияКELK_Чтение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПараметрыПодключенияКELK</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ELK_ТестСозданиеЛогов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЛогированиеELK_ПолныеПрава</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыНастроекПодключенияКELK</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ELK_Настройки</xr:Item>
+			</Content>
 		</Properties>
-		<ChildObjects>
-			<Form>Форма</Form>
-		</ChildObjects>
-	</DataProcessor>
+		<ChildObjects/>
+	</Subsystem>
 </MetaDataObject>

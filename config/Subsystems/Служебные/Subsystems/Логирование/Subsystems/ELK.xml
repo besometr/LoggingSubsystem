@@ -20,11 +20,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеПереопределяемый</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеПовтИсп</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеВызовСервера</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТестСозданиеЛогов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛогированиеСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ELK_ОтчетПоЛогам</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ELK_Настройки</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПараметрыПодключенияКELK</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЛогированиеELK_ПолныеПрава</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

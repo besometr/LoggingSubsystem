@@ -45,23 +45,22 @@
 			<Representation>None</Representation>
 			<ExtendedTooltip name="ГруппаНастройкиРасширеннаяПодсказка" id="6"/>
 			<ChildItems>
-				<UsualGroup name="ГруппаНастройкиДляЧтеничя" id="109">
+				<UsualGroup name="ГруппаНастройкиДляЧтения" id="109">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Настройки подключения к ELK для чтеничя</v8:content>
+							<v8:content>Настройки подключения к ELK для чтения данных</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа настройки для чтеничя</v8:content>
+							<v8:content>Группа отображает настройки подключения к ELK для чтения данных</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Group>Horizontal</Group>
 					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаНастройкиДляЧтеничяРасширеннаяПодсказка" id="110"/>
+					<ExtendedTooltip name="ГруппаНастройкиДляЧтенияРасширеннаяПодсказка" id="110"/>
 					<ChildItems>
 						<InputField name="Сервер_Чтение" id="46">
 							<DataPath>Сервер_Чтение</DataPath>
@@ -94,18 +93,17 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Настройки подключения к ELK  для записи</v8:content>
+							<v8:content>Настройки подключения к ELK  для записи данных</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа настройки для записи</v8:content>
+							<v8:content>Группа отображает настройки подключения к ELK  для записи данных</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Group>Horizontal</Group>
 					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаНастройкиДляЗаписиРасширеннаяПодсказка" id="112"/>
 					<ChildItems>
 						<InputField name="Сервер_Запись" id="113">
@@ -178,7 +176,7 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Отображает информацию о составе Индексов и их Типов</v8:content>
+					<v8:content>Отображает информацию о составе Индексов и их Типах</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Representation>None</Representation>

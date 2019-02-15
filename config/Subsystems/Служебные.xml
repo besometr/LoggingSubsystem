@@ -18,7 +18,8 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Тестовый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ae21ab31-db34-4899-a94b-c8cc5f84970c</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">87f369d0-c084-4440-be02-adfaf306ac2d</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

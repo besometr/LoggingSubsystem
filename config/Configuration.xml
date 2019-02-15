@@ -176,7 +176,6 @@
 			<CommonModule>ЛогированиеПовтИсп</CommonModule>
 			<CommonModule>ЛогированиеСервер</CommonModule>
 			<CommonModule>ОбщегоНазначенияВызовСервера</CommonModule>
-			<Catalog>Тестовый</Catalog>
 			<Enum>ТипыНастроекПодключенияКELK</Enum>
 			<Report>ELK_ОтчетПоЛогам</Report>
 			<DataProcessor>ELK_Настройки</DataProcessor>

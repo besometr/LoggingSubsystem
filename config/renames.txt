@@ -1,6 +1,5 @@
 ﻿ConfigDumpInfo.xml-->ConfigDumpInfo.xml
 Configuration.xml-->Configuration.xml
-Catalogs\Тестовый.xml-->Catalogs\Тестовый.xml
 CommonModules\ЛогированиеВызовСервера.xml-->CommonModules\ЛогированиеВызовСервера.xml
 CommonModules\ЛогированиеГлобальный.xml-->CommonModules\ЛогированиеГлобальный.xml
 CommonModules\ЛогированиеКлиентСервер.xml-->CommonModules\ЛогированиеКлиентСервер.xml
